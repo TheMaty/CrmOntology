@@ -1,0 +1,635 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2754F6F0-7EBF-4EC4-A299-05355072F07F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CRMOntology</RootNamespace>
+    <AssemblyName>CRMOntology</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\CRMOntology.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BrightstarDB">
+      <HintPath>..\..\..\..\..\..\Program Files\BrightstarDB\SDK\NET40\BrightstarDB.dll</HintPath>
+    </Reference>
+    <Reference Include="CommonTools, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Master\Graduate Thesis\Projects\CRMOntology\bin\Debug\CommonTools.dll</HintPath>
+    </Reference>
+    <Reference Include="dotNetRDF">
+      <HintPath>packages\dotNetRDF.1.0.7.3471\lib\net40\dotNetRDF.dll</HintPath>
+    </Reference>
+    <Reference Include="dotNetRDF.Data.Sql">
+      <HintPath>packages\dotNetRDF.Data.Sql.0.7.0\lib\net40\dotNetRDF.Data.Sql.dll</HintPath>
+    </Reference>
+    <Reference Include="dotNetRDF.Data.Virtuoso">
+      <HintPath>packages\dotNetRDF.Data.Virtuoso.1.0.7.3471\lib\net40\dotNetRDF.Data.Virtuoso.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>packages\EntityFramework.6.0.0\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>packages\EntityFramework.6.0.0\lib\net40\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>packages\HtmlAgilityPack.1.4.9\lib\Net40\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\Newtonsoft.Json.6.0.6\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenLink.Data.Virtuoso">
+      <HintPath>packages\OpenLink.Data.Virtuoso.6.2.3128.1\lib\net35\OpenLink.Data.Virtuoso.dll</HintPath>
+    </Reference>
+    <Reference Include="Remotion.Linq">
+      <HintPath>..\..\..\..\..\..\Program Files\BrightstarDB\SDK\NET40\Remotion.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="VDS.Common">
+      <HintPath>packages\VDS.Common.1.4.0\lib\net40-client\VDS.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessLayer\Accurate.cs" />
+    <Compile Include="BusinessLayer\AccurateMap.cs" />
+    <Compile Include="BusinessLayer\DatabaseMap.cs" />
+    <Compile Include="BusinessLayer\DataDescription.cs" />
+    <Compile Include="BusinessLayer\DataTransfer.cs" />
+    <Compile Include="BusinessLayer\IFactory.cs" />
+    <Compile Include="BusinessLayer\Node.cs" />
+    <Compile Include="BusinessLayer\OWLBusinessProcess.cs" />
+    <Compile Include="BusinessLayer\OWLConfiguration.cs" />
+    <Compile Include="BusinessLayer\OWLDescription.cs" />
+    <Compile Include="BusinessLayer\OWLItem.cs" />
+    <Compile Include="BusinessLayer\OWLTransfer.cs" />
+    <Compile Include="BusinessLayer\ResourceDatabase.cs" />
+    <Compile Include="BusinessLayer\ResourceDescription.cs" />
+    <Compile Include="BusinessLayer\ResourceMap.cs" />
+    <Compile Include="BusinessLayer\ResourceOWL.cs" />
+    <Compile Include="BusinessLayer\ResourceTable.cs" />
+    <Compile Include="BusinessLayer\Utilities.cs" />
+    <Compile Include="DataAccessLayer\AccountBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\ActivityPartyBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\ActivityPointerBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\AnnotationBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\AppointmentBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\BusinessUnitBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\CalendarBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\CampaignActivityBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\CampaignActivityItemBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\CampaignBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\CampaignItemBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\CampaignResponseBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\CompetitorBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\CompetitorProduct.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\ConnectionBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\ConnectionRoleAssociation.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\ConnectionRoleBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\ConnectionRoleBaseId.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\ContactBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\ContractBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\ContractDetailBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\CustomerAddressBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\DataAccess.cs" />
+    <Compile Include="DataAccessLayer\EmailBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\EntitlementBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\EquipmentBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\FaxBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\IncidentBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\KbArticleBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\KbArticleTemplateBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\LeadBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\LetterBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\OpportunityBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\OrganizationBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\OWLMapBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\OwnerBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\PhoneCallBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\PriceLevelBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\ProductBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\ServiceBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\SiteBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\SocialProfileBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\SQLServer.cs" />
+    <Compile Include="DataAccessLayer\StagingDataModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StagingDataModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\StagingDataModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\StagingDataModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StagingDataModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\SubjectBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\SystemUserBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\TaskBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\TeamBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\TeamMembership.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\TerritoryBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\TransactionCurrencyBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\TransferHistoryBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\UoMBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccessLayer\UoMScheduleBase.cs">
+      <DependentUpon>StagingDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AboutBox1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AboutBox1.Designer.cs">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AccurateSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AccurateSettings.Designer.cs">
+      <DependentUpon>AccurateSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CRMForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CRMForm.Designer.cs">
+      <DependentUpon>CRMForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CRMMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CRMMainForm.Designer.cs">
+      <DependentUpon>CRMMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DatabaseMappingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DatabaseMappingForm.Designer.cs">
+      <DependentUpon>DatabaseMappingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DatabaseMapVerification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DatabaseMapVerification.Designer.cs">
+      <DependentUpon>DatabaseMapVerification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DisplayOWLForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DisplayOWLForm.Designer.cs">
+      <DependentUpon>DisplayOWLForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LetsTalk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\LetsTalk.Designer.cs">
+      <DependentUpon>LetsTalk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LoadingDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\LoadingDataForm.Designer.cs">
+      <DependentUpon>LoadingDataForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\OWLConfigurationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\OWLConfigurationForm.Designer.cs">
+      <DependentUpon>OWLConfigurationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SWRLForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SWRLForm.Designer.cs">
+      <DependentUpon>SWRLForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RDFLayer\Configuration.cs" />
+    <Compile Include="RDFLayer\CRMOntologyContext.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRMOntologyContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RDFLayer\Entities\Activity\IActivity.cs" />
+    <Compile Include="RDFLayer\Entities\IAnnotation.cs" />
+    <Compile Include="RDFLayer\Entities\Activity\IAppointment.cs" />
+    <Compile Include="RDFLayer\Entities\IArticle.cs" />
+    <Compile Include="RDFLayer\Entities\IAttachment.cs" />
+    <Compile Include="RDFLayer\Entities\IRole.cs" />
+    <Compile Include="RDFLayer\Entities\ISubject.cs" />
+    <Compile Include="RDFLayer\Entities\ITeam.cs" />
+    <Compile Include="RDFLayer\Entities\Marketing\IMarketing.cs" />
+    <Compile Include="RDFLayer\Entities\Accurate\IAccurate.cs" />
+    <Compile Include="RDFLayer\Entities\Billing\Credict\ICredict.cs" />
+    <Compile Include="RDFLayer\Entities\Billing\IBilling.cs" />
+    <Compile Include="RDFLayer\Entities\Characteristics\Attitude\IAttitude.cs" />
+    <Compile Include="RDFLayer\Entities\Characteristics\Attitude\INegativeExperience.cs" />
+    <Compile Include="RDFLayer\Entities\Characteristics\Attitude\IPositiveExperience.cs" />
+    <Compile Include="RDFLayer\Entities\Characteristics\ICharacteristics.cs" />
+    <Compile Include="RDFLayer\Entities\Characteristics\IKnowledge.cs" />
+    <Compile Include="RDFLayer\Entities\Characteristics\ILifeStyle.cs" />
+    <Compile Include="RDFLayer\Entities\Characteristics\Motivation\Behavioral\IBehavioral.cs" />
+    <Compile Include="RDFLayer\Entities\Characteristics\Motivation\Consumer\IConsumer.cs" />
+    <Compile Include="RDFLayer\Entities\Characteristics\Motivation\Consumer\IDesire.cs" />
+    <Compile Include="RDFLayer\Entities\Characteristics\Motivation\Consumer\IDrive.cs" />
+    <Compile Include="RDFLayer\Entities\Characteristics\Motivation\Consumer\ILatentNeed.cs" />
+    <Compile Include="RDFLayer\Entities\Characteristics\Motivation\IMotivation.cs" />
+    <Compile Include="RDFLayer\Entities\Characteristics\Perception\IPerception.cs" />
+    <Compile Include="RDFLayer\Entities\Characteristics\Perception\Self\ISelf.cs" />
+    <Compile Include="RDFLayer\Entities\Party\Customer\Contact\Emotion\IEmotion.cs" />
+    <Compile Include="RDFLayer\Entities\Demographics\Address\IAddress.cs" />
+    <Compile Include="RDFLayer\Entities\Demographics\Address\IElectronic.cs" />
+    <Compile Include="RDFLayer\Entities\Demographics\Address\IWeb.cs" />
+    <Compile Include="RDFLayer\Entities\Demographics\Address\Postal\Country\City\ICity.cs" />
+    <Compile Include="RDFLayer\Entities\Demographics\Address\Postal\Country\City\IStreet.cs" />
+    <Compile Include="RDFLayer\Entities\Demographics\Address\Postal\Country\ICountry.cs" />
+    <Compile Include="RDFLayer\Entities\Demographics\Address\Postal\IPostal.cs" />
+    <Compile Include="RDFLayer\Entities\Demographics\IDemographics.cs" />
+    <Compile Include="RDFLayer\Entities\Demographics\IGender.cs" />
+    <Compile Include="RDFLayer\Entities\Demographics\MartialStatus\IMaritialStatus.cs" />
+    <Compile Include="RDFLayer\Entities\Party\Customer\Account\IAccount.cs" />
+    <Compile Include="RDFLayer\Entities\Loyality\IChurn.cs" />
+    <Compile Include="RDFLayer\Entities\Loyality\IRetention.cs" />
+    <Compile Include="RDFLayer\Entities\Loyality\ILoyality.cs" />
+    <Compile Include="RDFLayer\Entities\Loyality\Reward\IReward.cs" />
+    <Compile Include="RDFLayer\Entities\Loyality\Segment\IGold.cs" />
+    <Compile Include="RDFLayer\Entities\Loyality\Segment\IPremium.cs" />
+    <Compile Include="RDFLayer\Entities\Loyality\Segment\ISegment.cs" />
+    <Compile Include="RDFLayer\Entities\Loyality\Segment\ISilver.cs" />
+    <Compile Include="RDFLayer\Entities\Party\Customer\Contact\Personality\INeuroticism.cs" />
+    <Compile Include="RDFLayer\Entities\Party\Customer\Contact\Personality\IOpenness.cs" />
+    <Compile Include="RDFLayer\Entities\Preference\ICall.cs" />
+    <Compile Include="RDFLayer\Entities\Preference\IPreference.cs" />
+    <Compile Include="RDFLayer\Entities\Preference\ISendBulkEMail.cs" />
+    <Compile Include="RDFLayer\Entities\Preference\ISendEMail.cs" />
+    <Compile Include="RDFLayer\Entities\Preference\ISendFax.cs" />
+    <Compile Include="RDFLayer\Entities\Preference\ISendMail.cs" />
+    <Compile Include="RDFLayer\Entities\Party\Customer\Account\Profile\IProfile.cs" />
+    <Compile Include="RDFLayer\Entities\Shipping\IShipping.cs" />
+    <Compile Include="RDFLayer\Entities\Party\Customer\Account\Type\IGovernments.cs" />
+    <Compile Include="RDFLayer\Entities\Party\Customer\Account\Type\INonGovernments.cs" />
+    <Compile Include="RDFLayer\Entities\Party\Customer\Account\Type\IType.cs" />
+    <Compile Include="RDFLayer\Entities\Party\Customer\Contact\IContact.cs" />
+    <Compile Include="RDFLayer\Entities\Party\Customer\Contact\Personality\IAggreeableness.cs" />
+    <Compile Include="RDFLayer\Entities\Party\Customer\Contact\Personality\IConscientiousness.cs" />
+    <Compile Include="RDFLayer\Entities\Party\Customer\Contact\Personality\IExtraVersion.cs" />
+    <Compile Include="RDFLayer\Entities\Party\Customer\Contact\Personality\IPersonality.cs" />
+    <Compile Include="RDFLayer\Entities\Party\Customer\ICustomer.cs" />
+    <Compile Include="RDFLayer\Entities\Party\Customer\Lead\ILead.cs" />
+    <Compile Include="RDFLayer\Entities\Party\IBusinessUnit.cs" />
+    <Compile Include="RDFLayer\Entities\Marketing\ICampaign.cs" />
+    <Compile Include="RDFLayer\Entities\Activity\ICampaignActivity.cs" />
+    <Compile Include="RDFLayer\Entities\Case\ICase.cs" />
+    <Compile Include="RDFLayer\Entities\IConnection.cs" />
+    <Compile Include="RDFLayer\Entities\IConnectionRole.cs" />
+    <Compile Include="RDFLayer\Entities\IConnectionRoleCategory.cs" />
+    <Compile Include="RDFLayer\Entities\Case\IContract.cs" />
+    <Compile Include="RDFLayer\Entities\Activity\IEmail.cs" />
+    <Compile Include="RDFLayer\Entities\Case\IEntitlement.cs" />
+    <Compile Include="RDFLayer\Entities\Case\IEquipment.cs" />
+    <Compile Include="RDFLayer\Entities\Activity\IFax.cs" />
+    <Compile Include="RDFLayer\Entities\Marketing\IGoal.cs" />
+    <Compile Include="RDFLayer\Entities\Case\IIncident.cs" />
+    <Compile Include="RDFLayer\Entities\IKbArticle.cs" />
+    <Compile Include="RDFLayer\Entities\Activity\ILetter.cs" />
+    <Compile Include="RDFLayer\Entities\Party\ICompetitor.cs" />
+    <Compile Include="RDFLayer\Entities\Party\IParty.cs" />
+    <Compile Include="RDFLayer\Entities\Activity\IPhone.cs" />
+    <Compile Include="RDFLayer\Entities\Activity\ITask.cs" />
+    <Compile Include="RDFLayer\Entities\Party\ISystemUser.cs" />
+    <Compile Include="RDFLayer\Entities\Sales\IInvoice.cs" />
+    <Compile Include="RDFLayer\Entities\Sales\IOpportunity.cs" />
+    <Compile Include="RDFLayer\Entities\Sales\IOrder.cs" />
+    <Compile Include="RDFLayer\Entities\Sales\IQuote.cs" />
+    <Compile Include="RDFLayer\Entities\Sales\ISales.cs" />
+    <Compile Include="RDFLayer\Entities\Sales\Product\IGoods.cs" />
+    <Compile Include="RDFLayer\Entities\Sales\Product\IProcesses.cs" />
+    <Compile Include="RDFLayer\Entities\Sales\Product\IProduct.cs" />
+    <Compile Include="RDFLayer\Entities\Sales\Product\IServices.cs" />
+    <Compile Include="RDFLayer\ExtendBrightstarDB.cs" />
+    <EmbeddedResource Include="Forms\AboutBox1.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AccurateSettings.resx">
+      <DependentUpon>AccurateSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CRMForm.resx">
+      <DependentUpon>CRMForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CRMMainForm.resx">
+      <DependentUpon>CRMMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DatabaseMappingForm.resx">
+      <DependentUpon>DatabaseMappingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DatabaseMapVerification.resx">
+      <DependentUpon>DatabaseMapVerification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DisplayOWLForm.resx">
+      <DependentUpon>DisplayOWLForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LetsTalk.resx">
+      <DependentUpon>LetsTalk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LoadingDataForm.resx">
+      <DependentUpon>LoadingDataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OWLConfigurationForm.resx">
+      <DependentUpon>OWLConfigurationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SWRLForm.resx">
+      <DependentUpon>SWRLForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EntityDeploy Include="DataAccessLayer\StagingDataModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>StagingDataModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="App.Config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="DataAccessLayer\StagingDataModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>StagingDataModel.edmx</DependentUpon>
+      <LastGenOutput>StagingDataModel.Context.cs</LastGenOutput>
+    </None>
+    <None Include="DataAccessLayer\StagingDataModel.edmx.diagram">
+      <DependentUpon>StagingDataModel.edmx</DependentUpon>
+    </None>
+    <None Include="DataAccessLayer\StagingDataModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>StagingDataModel.edmx</DependentUpon>
+      <LastGenOutput>StagingDataModel.cs</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\BrightstarDB\Basic.sparql" />
+    <None Include="Resources\BrightstarDB\CRM\CRM_Ontology\data.bs" />
+    <None Include="Resources\BrightstarDB\CRM\CRM_Ontology\master.bs" />
+    <None Include="Resources\BrightstarDB\CRM\CRM_Ontology\resources.bs" />
+    <None Include="Resources\BrightstarDB\CRM\CRM_Ontology\transactionheaders.bs" />
+    <None Include="Resources\BrightstarDB\CRM\CRM_Ontology\transactions.bs" />
+    <None Include="Resources\BrightstarDB\CRM\import\CRM_Ontology_20151019_185500.nt" />
+    <None Include="Resources\BrightstarDB\CRM\import\CRM_Ontology_20160917_093818.nt" />
+    <None Include="Resources\Staging Database Diagram.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RDFLayer\CRMOntologyContext.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>CRMOntologyContext.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\Class Diagram.pdf" />
+    <None Include="Resources\CRMOntolojiMimarisi.vsdx" />
+    <None Include="Resources\crm_ontology.owl" />
+    <None Include="Resources\crm_ontology.rdf" />
+    <None Include="Resources\DatabaseMap.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Resources\DataRow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DataTable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OWLConfiguration.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Resources\rdf_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DatabaseMap.xml">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\db_valid.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\db_invalid.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rdf_foldr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BusinessRecommend.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BusinessRequired.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NoConstraint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OWLConfiguration.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Loading.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\BrightstarDB\CRM\import\catalog-v001.xml" />
+    <Content Include="Resources\Exported CRMOntology OWL Schema.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

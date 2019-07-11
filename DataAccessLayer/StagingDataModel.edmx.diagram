@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="db9177fb1b1c452eb6489f01b4cc0c9a" Name="Diagram1" ZoomLevel="82">
+        <EntityTypeShape EntityType="StagingModel.AccountBase" Width="2.5" PointX="5.25" PointY="227" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.ActivityPartyBase" Width="1.5" PointX="3" PointY="163.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.ActivityPointerBase" Width="1.5" PointX="13.5" PointY="212.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.AppointmentBase" Width="1.5" PointX="15.75" PointY="210.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.BusinessUnitBase" Width="1.5" PointX="8.25" PointY="232" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.CalendarBase" Width="1.5" PointX="10.5" PointY="199.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.CampaignActivityBase" Width="1.5" PointX="15.75" PointY="207.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.CampaignActivityItemBase" Width="1.5" PointX="18.75" PointY="207.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.CampaignBase" Width="1.5" PointX="21.5" PointY="238" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.CampaignItemBase" Width="1.5" PointX="24.75" PointY="203.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.CampaignResponseBase" Width="1.5" PointX="15.75" PointY="213.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.CompetitorBase" Width="1.5" PointX="11.25" PointY="233.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.CompetitorProduct" Width="1.5" PointX="21.75" PointY="208.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.ConnectionBase" Width="1.5" PointX="21.5" PointY="227.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.ConnectionRoleAssociation" Width="1.5" PointX="5.25" PointY="177.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.ConnectionRoleBase" Width="1.5" PointX="3" PointY="197.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.ConnectionRoleBaseId" Width="1.5" PointX="3" PointY="194.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.ContactBase" Width="1.5" PointX="37.25" PointY="225.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.ContractBase" Width="1.5" PointX="24.5" PointY="237.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.ContractDetailBase" Width="1.5" PointX="32.75" PointY="243.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.CustomerAddressBase" Width="1.5" PointX="16.25" PointY="232.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.EmailBase" Width="1.5" PointX="18.75" PointY="211.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.EntitlementBase" Width="1.5" PointX="18.5" PointY="231.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.EquipmentBase" Width="1.5" PointX="15.75" PointY="244" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.FaxBase" Width="1.5" PointX="18.75" PointY="214.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.IncidentBase" Width="1.5" PointX="26.75" PointY="228.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.KbArticleBase" Width="1.5" PointX="11.25" PointY="243.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.KbArticleTemplateBase" Width="1.5" PointX="3" PointY="273.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.LeadBase" Width="1.5" PointX="35" PointY="231.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.LetterBase" Width="1.5" PointX="15.75" PointY="204.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.OpportunityBase" Width="1.5" PointX="39.5" PointY="226.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.OrganizationBase" Width="1.5" PointX="29.75" PointY="208.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.OWLMapBase" Width="1.5" PointX="2" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.OwnerBase" Width="1.5" PointX="3" PointY="280" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.PhoneCallBase" Width="1.5" PointX="21.75" PointY="204.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.PriceLevelBase" Width="1.5" PointX="11.25" PointY="225.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.ProductBase" Width="1.5" PointX="18.5" PointY="242.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.ServiceBase" Width="1.5" PointX="12.75" PointY="179.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.SiteBase" Width="1.5" PointX="3" PointY="293.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.SocialProfileBase" Width="1.5" PointX="16.5" PointY="221.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.SubjectBase" Width="1.5" PointX="3" PointY="299" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.SystemUserBase" Width="1.5" PointX="23.75" PointY="219.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.TerritoryBase" Width="1.5" PointX="32" PointY="234" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.TransactionCurrencyBase" Width="1.5" PointX="3" PointY="305" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.TransferHistoryBase" Width="1.5" PointX="0.75" PointY="160.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.UoMBase" Width="1.5" PointX="8.25" PointY="245" IsExpanded="true" />
+        <EntityTypeShape EntityType="StagingModel.UoMScheduleBase" Width="1.5" PointX="3" PointY="321.375" IsExpanded="true" />
+        <AssociationConnector Association="StagingModel.account_entitlement_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.account_master_account" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.account_originating_lead" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.account_parent_account" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.account_primary_contact" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.business_unit_accounts" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.equipment_accounts" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_AccountBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.lead_parent_account" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.opportunity_parent_account" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.owner_accounts" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.price_level_accounts" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.service_accounts" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.system_user_accounts" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.territory_accounts" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.transactioncurrency_account" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.activitypointer_activity_parties" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_ActivityPartyBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.activity_campaignresponse" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.business_unit_activitypointer" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.business_unit_socialactivity" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.competitor_opportunity_activities" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.email_email_parentactivityid" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_ActivityPointerBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_AppointmentBase_ActivityPointerBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_CampaignActivityBase_ActivityPointerBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_CampaignResponseBase_ActivityPointerBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_EmailBase_ActivityPointerBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_FaxBase_ActivityPointerBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_LetterBase_ActivityPointerBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_PhoneCallBase_ActivityPointerBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.items_campaignactivity" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.owner_activitypointers" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.service_activity_pointers" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.site_service_appointments" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.Socialprofile_SocialActivities" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.TransactionCurrency_ActivityPointer" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.transactioncurrency_socialactivity" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_AppointmentBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.business_unit_calendars" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.business_unit_connections" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.business_unit_contacts" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.business_unit_entitlement" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.business_unit_equipment" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.business_unit_incidents" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.business_unit_leads" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.business_unit_opportunities" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.business_unit_parent_business_unit" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.business_unit_service_contracts" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.business_unit_socialprofiles" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.business_unit_system_users" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.BusinessUnit_Calendar" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.BusinessUnit_Campaigns" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_BusinessUnitBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.TransactionCurrency_BusinessUnit" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.calendar_customercalendar_holidaycalendar" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.calendar_equipment" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.calendar_organization" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.calendar_services" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.calendar_system_users" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_CalendarBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_CampaignActivityBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_CampaignActivityItemBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.campaign_leads" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.campaign_opportunities" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.Campaign_RelatedEntities" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_CampaignBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.owner_campaigns" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.PriceList_Campaigns" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.transactioncurrency_campaign" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_CampaignItemBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_CampaignResponseBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.competitor_products" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_CompetitorBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.transactioncurrency_competitor" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_CompetitorProduct_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.product_competitors" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.connection_related_connection" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.connection_role_connections1" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.connection_role_connections2" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_ConnectionBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.owner_connections" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.TransactionCurrency_Connection" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.connection_role_associations" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_ConnectionRoleAssociation_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_ConnectionRoleBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_ConnectionRoleBaseIds_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.contact_as_primary_contact" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.contact_as_responsible_contact" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.contact_entitlement_ContactId" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.contact_master_contact" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.contact_originating_lead" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.equipment_contacts" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_ContactBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.lead_parent_contact" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.opportunity_parent_contact" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.owner_contacts" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.price_level_contacts" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.service_contacts" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.system_user_contacts" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.transactioncurrency_contact" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.contract_cases" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.contract_line_items" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.contract_originating_contract" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.customer_address_contracts_as_billing_address" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.customer_address_contracts_as_service_address" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_ContractBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.owner_contracts" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.transactioncurrency_contract" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.contract_detail_cases" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.contract_detail_unit_of_measure_schedule" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.customer_address_contract_line_items" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_ContractDetailBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.product_contract_line_items" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.transactioncurrency_contractdetail" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.unit_of_measurement_contract_line_items" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_CustomerAddressBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.TransactionCurrency_CustomerAddress" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_EmailBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.entitlement_cases" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_EntitlementBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.owner_entitlement" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.TransactionCurrency_Entitlement" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_EquipmentBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.site_equipment" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.TransactionCurrency_Equipment" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_FaxBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_IncidentBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.kbarticle_incidents" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.OriginatingCase_Lead" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.owner_incidents" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.product_incidents" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.socialprofile_cases" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.subject_incidents" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.TransactionCurrency_Incident" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_KbArticleBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.subject_kb_articles" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.TransactionCurrency_KbArticle" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_kbArticleTemplateBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_LeadBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.lead_master_lead" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.lead_qualifying_opportunity" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.opportunity_originating_lead" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.owner_leads" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.transactioncurrency_lead" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_LetterBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_OpportunityBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.owner_opportunitys" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.price_level_opportunties" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.transactioncurrency_opportunity" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.basecurrency_organization" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_OrganizationBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_OwnerBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.owner_SocialProfile" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_PhoneCallBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_PriceLevelBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.price_level_products" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.transactioncurrency_pricelevel" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_ProductBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.subject_products" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.transactioncurrency_product" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.unit_of_measurement_products" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.unit_of_measurement_schedule_products" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_ServiceBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_SiteBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.site_system_users" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_SocialProfileBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.transactioncurrency_SocialProfile" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_SubjectBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.subject_parent_subject" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_SystemUserBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.system_user_territories" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.territory_system_users" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.TransactionCurrency_SystemUser" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.user_parent_user" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_TerritoryBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.TransactionCurrency_Territory" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_TransactionCurrencyBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_UoMBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.FK_UoMScheduleBase_TransferHistoryBase" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.unit_of_measure_schedule_conversions" ManuallyRouted="false" />
+        <AssociationConnector Association="StagingModel.unit_of_measurement_base_unit" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="StagingModel.TeamBase" Width="1.5" PointX="19.5" PointY="219.25" />
+        <AssociationConnector Association="StagingModel.business_unit_teams" />
+        <AssociationConnector Association="StagingModel.FK_TeamBase_TransferHistoryBase" />
+        <AssociationConnector Association="StagingModel.TransactionCurrency_Team" />
+        <EntityTypeShape EntityType="StagingModel.TeamMembership" Width="1.5" PointX="26" PointY="197.125" />
+        <AssociationConnector Association="StagingModel.system_user_team_membership" />
+        <AssociationConnector Association="StagingModel.team_system_users" />
+        <AssociationConnector Association="StagingModel.FK_TeamMembership_TransferHistoryBase" />
+        <EntityTypeShape EntityType="StagingModel.AnnotationBase" Width="1.5" PointX="10.5" PointY="217.625" />
+        <AssociationConnector Association="StagingModel.business_unit_annotations" />
+        <AssociationConnector Association="StagingModel.FK_AnnotationBase_TransferHistoryBase" />
+        <AssociationConnector Association="StagingModel.owner_annotations" />
+        <EntityTypeShape EntityType="StagingModel.TaskBase" Width="1.5" PointX="15.75" PointY="216.75" />
+        <AssociationConnector Association="StagingModel.FK_TaskBase_ActivityPointerBase" />
+        <AssociationConnector Association="StagingModel.FK_TaskBase_TransferHistoryBase" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

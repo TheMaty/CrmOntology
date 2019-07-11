@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Ontology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.comu.edu.tr/eatamuh/ontologies/DatabaseMap DatabaseMap.xsd">
+  <DatabaseMap name="Template">
+    <Database type="Source" connectionString=""/>
+    <Database type="Staging" connectionString=""/>
+    <OWL type="file" path =""/>
+    <Table name="TableName">
+      <Map from="" fromtype="" to="" totype=""/>
+    </Table>
+  </DatabaseMap>
+</Ontology>

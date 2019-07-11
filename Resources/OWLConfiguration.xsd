@@ -1,0 +1,37 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.comu.edu.tr/eatamuh/ontologies/OWLConfiguration" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Ontology">
+  </xs:element>
+  <xs:element name="OWLConfiguration">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">      
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Database">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:string" name="type" use="optional"/>
+          <xs:attribute type="xs:string" name="connectionString" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OWLItem">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:string" name="type" use="optional" />
+          <xs:attribute type="xs:string" name="low" use="optional" />
+          <xs:attribute type="xs:string" name="medium" use="optional" />
+          <xs:attribute type="xs:string" name="high" use="optional" />
+          <xs:attribute type="xs:string" name="businessrequired" use="optional" />
+          <xs:attribute type="xs:string" name="businessrecommend" use="optional" />
+          <xs:attribute type="xs:string" name="noconstraint" use="optional" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>  
+</xs:schema>

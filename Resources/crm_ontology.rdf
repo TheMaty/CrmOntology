@@ -1,0 +1,3151 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY crm-ontology "http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology"
+     xml:base="http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:crm-ontology="http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology">
+        <rdfs:comment>initial version in Karlskrona,Sweden in 2014-09-22 20:40</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#aim -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;aim"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#asRole -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;asRole"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#assignTo -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;assignTo"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#callTo -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;callTo"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#choice -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;choice"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#complaintOf -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;complaintOf"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#connectTo -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;connectTo"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#connectionroleOf -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;connectionroleOf"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#from -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;from"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#hasAnnotation -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;hasAnnotation"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#hasAppoitnment -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;hasAppoitnment"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#hasAttachment -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;hasAttachment"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#hasConnection -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;hasConnection"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#hasEmail -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;hasEmail"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#hasFax -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;hasFax"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#hasIssue -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;hasIssue"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#hasLetter -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;hasLetter"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#hasOpportunity -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;hasOpportunity"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#hasPhoneCall -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;hasPhoneCall"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#hasTask -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;hasTask"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#host -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;host"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#isCategorized -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;isCategorized"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#isChildOf -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;isChildOf"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#isEnclosed -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;isEnclosed"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#isLocationOf -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;isLocationOf"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#isMemberOf -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;isMemberOf"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#isOwnedBy -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;isOwnedBy"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#isOwnerOf -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;isOwnerOf"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#isParentAccountOf -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;isParentAccountOf"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#isParentOf -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;isParentOf"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#isPartOf -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;isPartOf"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#isPrimaryContact -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;isPrimaryContact">
+        <rdfs:subPropertyOf rdf:resource="&crm-ontology;isMemberOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#isfor -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;isfor"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#leaveNote -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;leaveNote"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#live -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;live"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#need -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;need"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#negative -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;negative"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#own -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;own"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#positive -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;positive"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#purchase -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;purchase"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#requires -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;requires"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#scheduleTo -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;scheduleTo"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#sentTo -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;sentTo"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#stayIn -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;stayIn"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#to -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;to"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#use -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;use"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#want -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;want"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#workIn -->
+
+    <owl:ObjectProperty rdf:about="&crm-ontology;workIn"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#code -->
+
+    <owl:DatatypeProperty rdf:about="&crm-ontology;code"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#money -->
+
+    <owl:DatatypeProperty rdf:about="&crm-ontology;money"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#text -->
+
+    <owl:DatatypeProperty rdf:about="&crm-ontology;text"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#Industry -->
+
+    <owl:Class rdf:about="&crm-ontology;Industry">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;profile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#_10000points -->
+
+    <owl:Class rdf:about="&crm-ontology;_10000points">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;vip"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#_1000points -->
+
+    <owl:Class rdf:about="&crm-ontology;_1000points">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;avantgarde"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#_100points -->
+
+    <owl:Class rdf:about="&crm-ontology;_100points">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;classic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#_250points -->
+
+    <owl:Class rdf:about="&crm-ontology;_250points">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;classic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#_5000points -->
+
+    <owl:Class rdf:about="&crm-ontology;_5000points">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;vip"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#_500points -->
+
+    <owl:Class rdf:about="&crm-ontology;_500points">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;avantgarde"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#_50points -->
+
+    <owl:Class rdf:about="&crm-ontology;_50points">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;classic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#_7500points -->
+
+    <owl:Class rdf:about="&crm-ontology;_7500points">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;vip"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#_750points -->
+
+    <owl:Class rdf:about="&crm-ontology;_750points">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;avantgarde"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#_holding -->
+
+    <owl:Class rdf:about="&crm-ontology;_holding">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;corporations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#_limited -->
+
+    <owl:Class rdf:about="&crm-ontology;_limited">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;corporations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#_private -->
+
+    <owl:Class rdf:about="&crm-ontology;_private">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;corporations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#account -->
+
+    <owl:Class rdf:about="&crm-ontology;account">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;customer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;hasEmail"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;email"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;hasPhoneCall"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;phone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;hasLetter"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;letter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;hasFax"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;fax"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;hasAppoitnment"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;appointment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;hasAnnotation"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;annotation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;isParentAccountOf"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;account"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;isOwnedBy"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;systemuser"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;hasTask"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;task"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;stayIn"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;address"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;hasIssue"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;incident"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="&crm-ontology;lifestyle"/>
+        <owl:disjointWith rdf:resource="&crm-ontology;maritialstatus"/>
+        <owl:disjointWith rdf:resource="&crm-ontology;motivation"/>
+        <owl:disjointWith rdf:resource="&crm-ontology;personality"/>
+        <owl:disjointWith rdf:resource="&crm-ontology;physicological"/>
+        <owl:disjointWith rdf:resource="&crm-ontology;self"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#accurate -->
+
+    <owl:Class rdf:about="&crm-ontology;accurate">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;account"/>
+        <rdfs:subClassOf rdf:resource="&crm-ontology;contact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#activity -->
+
+    <owl:Class rdf:about="&crm-ontology;activity"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#address -->
+
+    <owl:Class rdf:about="&crm-ontology;address">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;demographics"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;isLocationOf"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;account"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;isLocationOf"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;contact"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#agreeableness -->
+
+    <owl:Class rdf:about="&crm-ontology;agreeableness">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;personality"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;positive"/>
+                <owl:onClass rdf:resource="&crm-ontology;perception"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#annotation -->
+
+    <owl:Class rdf:about="&crm-ontology;annotation">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;leaveNote"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;contact"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;leaveNote"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;account"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;hasAttachment"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;attachment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#appointment -->
+
+    <owl:Class rdf:about="&crm-ontology;appointment">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;activity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;scheduleTo"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;account"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;scheduleTo"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;contact"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#article -->
+
+    <owl:Class rdf:about="&crm-ontology;article"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#attachment -->
+
+    <owl:Class rdf:about="&crm-ontology;attachment">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;isEnclosed"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;annotation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#attitude -->
+
+    <owl:Class rdf:about="&crm-ontology;attitude">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#avantgarde -->
+
+    <owl:Class rdf:about="&crm-ontology;avantgarde">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;reward"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#behavioral -->
+
+    <owl:Class rdf:about="&crm-ontology;behavioral">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;motivation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#belief -->
+
+    <owl:Class rdf:about="&crm-ontology;belief">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#benefit -->
+
+    <owl:Class rdf:about="&crm-ontology;benefit">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;perception"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#billing -->
+
+    <owl:Class rdf:about="&crm-ontology;billing">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;account"/>
+        <rdfs:subClassOf rdf:resource="&crm-ontology;contact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#businessunit -->
+
+    <owl:Class rdf:about="&crm-ontology;businessunit">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;party"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;host"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;systemuser"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#call -->
+
+    <owl:Class rdf:about="&crm-ontology;call">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;preference"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#campaign -->
+
+    <owl:Class rdf:about="&crm-ontology;campaign">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;marketing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#campaignactivity -->
+
+    <owl:Class rdf:about="&crm-ontology;campaignactivity">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;activity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#case -->
+
+    <owl:Class rdf:about="&crm-ontology;case"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#characteristics -->
+
+    <owl:Class rdf:about="&crm-ontology;characteristics">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;account"/>
+        <rdfs:subClassOf rdf:resource="&crm-ontology;contact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#churn -->
+
+    <owl:Class rdf:about="&crm-ontology;churn">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;account"/>
+        <rdfs:subClassOf rdf:resource="&crm-ontology;contact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#city -->
+
+    <owl:Class rdf:about="&crm-ontology;city">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#classic -->
+
+    <owl:Class rdf:about="&crm-ontology;classic">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;reward"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#competitor -->
+
+    <owl:Class rdf:about="&crm-ontology;competitor">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;party"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#connection -->
+
+    <owl:Class rdf:about="&crm-ontology;connection">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;connectTo"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;account"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;connectTo"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;contact"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#connectionrole -->
+
+    <owl:Class rdf:about="&crm-ontology;connectionrole">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;asRole"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;connection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#connectionrolecategory -->
+
+    <owl:Class rdf:about="&crm-ontology;connectionrolecategory">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;isCategorized"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;connectionrole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#conscientiousness -->
+
+    <owl:Class rdf:about="&crm-ontology;conscientiousness">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;personality"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;positive"/>
+                <owl:onClass rdf:resource="&crm-ontology;perception"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#consumer -->
+
+    <owl:Class rdf:about="&crm-ontology;consumer">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;motivation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#contact -->
+
+    <owl:Class rdf:about="&crm-ontology;contact">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;customer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;stayIn"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;address"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;isPartOf"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;account"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;isPrimaryContact"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;account"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#contract -->
+
+    <owl:Class rdf:about="&crm-ontology;contract">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;case"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#corporations -->
+
+    <owl:Class rdf:about="&crm-ontology;corporations">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#country -->
+
+    <owl:Class rdf:about="&crm-ontology;country">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;postal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#credict -->
+
+    <owl:Class rdf:about="&crm-ontology;credict">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;billing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#currency -->
+
+    <owl:Class rdf:about="&crm-ontology;currency">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;billing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#customer -->
+
+    <owl:Class rdf:about="&crm-ontology;customer">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;party"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#demographics -->
+
+    <owl:Class rdf:about="&crm-ontology;demographics">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;account"/>
+        <rdfs:subClassOf rdf:resource="&crm-ontology;contact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#desire -->
+
+    <owl:Class rdf:about="&crm-ontology;desire">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;consumer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;to"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;product"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#divorced -->
+
+    <owl:Class rdf:about="&crm-ontology;divorced">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;maritialstatus"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#drive -->
+
+    <owl:Class rdf:about="&crm-ontology;drive">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;consumer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;to"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;product"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#electronic -->
+
+    <owl:Class rdf:about="&crm-ontology;electronic">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;address"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#email -->
+
+    <owl:Class rdf:about="&crm-ontology;email">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;activity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;sentTo"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;contact"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;sentTo"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;account"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#emotion -->
+
+    <owl:Class rdf:about="&crm-ontology;emotion">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;contact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#entitlement -->
+
+    <owl:Class rdf:about="&crm-ontology;entitlement">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;case"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#equipment -->
+
+    <owl:Class rdf:about="&crm-ontology;equipment">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;case"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#esteem -->
+
+    <owl:Class rdf:about="&crm-ontology;esteem">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;behavioral"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#extraversion -->
+
+    <owl:Class rdf:about="&crm-ontology;extraversion">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;personality"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;positive"/>
+                <owl:onClass rdf:resource="&crm-ontology;perception"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#fax -->
+
+    <owl:Class rdf:about="&crm-ontology;fax">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;activity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;sentTo"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;contact"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;sentTo"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;account"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#freightterm -->
+
+    <owl:Class rdf:about="&crm-ontology;freightterm">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;shipping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#fulfill -->
+
+    <owl:Class rdf:about="&crm-ontology;fulfill">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;accurate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#gender -->
+
+    <owl:Class rdf:about="&crm-ontology;gender">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;demographics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#goal -->
+
+    <owl:Class rdf:about="&crm-ontology;goal">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;marketing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#gold -->
+
+    <owl:Class rdf:about="&crm-ontology;gold">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;segment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#goods -->
+
+    <owl:Class rdf:about="&crm-ontology;goods">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#governments -->
+
+    <owl:Class rdf:about="&crm-ontology;governments">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#hold -->
+
+    <owl:Class rdf:about="&crm-ontology;hold">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;credict"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#incident -->
+
+    <owl:Class rdf:about="&crm-ontology;incident">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;case"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;complaintOf"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;contact"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;complaintOf"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;account"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#invoice -->
+
+    <owl:Class rdf:about="&crm-ontology;invoice">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;sales"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#kbarticle -->
+
+    <owl:Class rdf:about="&crm-ontology;kbarticle"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#knowledge -->
+
+    <owl:Class rdf:about="&crm-ontology;knowledge">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;characteristics"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;need"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;product"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;want"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;product"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;aim"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;product"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#latent_need -->
+
+    <owl:Class rdf:about="&crm-ontology;latent_need">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;consumer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;to"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;product"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#lead -->
+
+    <owl:Class rdf:about="&crm-ontology;lead">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;customer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#letter -->
+
+    <owl:Class rdf:about="&crm-ontology;letter">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;activity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;sentTo"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;account"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;sentTo"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;contact"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#lifestyle -->
+
+    <owl:Class rdf:about="&crm-ontology;lifestyle">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;characteristics"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;choice"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;product"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;live"/>
+                <owl:onClass rdf:resource="&crm-ontology;postal"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;isPartOf"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;demographics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;use"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;product"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;purchase"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;product"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#limit -->
+
+    <owl:Class rdf:about="&crm-ontology;limit">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;credict"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#loyality -->
+
+    <owl:Class rdf:about="&crm-ontology;loyality">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;account"/>
+        <rdfs:subClassOf rdf:resource="&crm-ontology;contact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#maritialstatus -->
+
+    <owl:Class rdf:about="&crm-ontology;maritialstatus">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;demographics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#marketing -->
+
+    <owl:Class rdf:about="&crm-ontology;marketing"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#married -->
+
+    <owl:Class rdf:about="&crm-ontology;married">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;maritialstatus"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#method -->
+
+    <owl:Class rdf:about="&crm-ontology;method">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;shipping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#motivation -->
+
+    <owl:Class rdf:about="&crm-ontology;motivation">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#negative_experience -->
+
+    <owl:Class rdf:about="&crm-ontology;negative_experience">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;attitude"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;from"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;product"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#neuroticism -->
+
+    <owl:Class rdf:about="&crm-ontology;neuroticism">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;personality"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;negative"/>
+                <owl:onClass rdf:resource="&crm-ontology;perception"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#non-government -->
+
+    <owl:Class rdf:about="&crm-ontology;non-government">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#openness -->
+
+    <owl:Class rdf:about="&crm-ontology;openness">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;personality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#opportunity -->
+
+    <owl:Class rdf:about="&crm-ontology;opportunity">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;sales"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;isfor"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;account"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;isfor"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;contact"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#order -->
+
+    <owl:Class rdf:about="&crm-ontology;order">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;sales"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#ownership -->
+
+    <owl:Class rdf:about="&crm-ontology;ownership">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;profile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#party -->
+
+    <owl:Class rdf:about="&crm-ontology;party"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#paymentterm -->
+
+    <owl:Class rdf:about="&crm-ontology;paymentterm">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;billing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#perception -->
+
+    <owl:Class rdf:about="&crm-ontology;perception">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#personality -->
+
+    <owl:Class rdf:about="&crm-ontology;personality">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;characteristics"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;positive"/>
+                <owl:onClass rdf:resource="&crm-ontology;perception"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#phone -->
+
+    <owl:Class rdf:about="&crm-ontology;phone">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;activity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;callTo"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;account"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;callTo"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;contact"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#physicological -->
+
+    <owl:Class rdf:about="&crm-ontology;physicological">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;behavioral"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#possitive_experience -->
+
+    <owl:Class rdf:about="&crm-ontology;possitive_experience">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;attitude"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;from"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;product"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#postal -->
+
+    <owl:Class rdf:about="&crm-ontology;postal">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;address"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#preference -->
+
+    <owl:Class rdf:about="&crm-ontology;preference">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;account"/>
+        <rdfs:subClassOf rdf:resource="&crm-ontology;contact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#premium -->
+
+    <owl:Class rdf:about="&crm-ontology;premium">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;segment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#price -->
+
+    <owl:Class rdf:about="&crm-ontology;price">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;perception"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#process -->
+
+    <owl:Class rdf:about="&crm-ontology;process">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#product -->
+
+    <owl:Class rdf:about="&crm-ontology;product">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;sales"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#profile -->
+
+    <owl:Class rdf:about="&crm-ontology;profile">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;account"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#quote -->
+
+    <owl:Class rdf:about="&crm-ontology;quote">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;sales"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#retention -->
+
+    <owl:Class rdf:about="&crm-ontology;retention">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;account"/>
+        <rdfs:subClassOf rdf:resource="&crm-ontology;contact"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;requires"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;opportunity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;requires"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;marketing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#reward -->
+
+    <owl:Class rdf:about="&crm-ontology;reward">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;loyality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#role -->
+
+    <owl:Class rdf:about="&crm-ontology;role"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#safety -->
+
+    <owl:Class rdf:about="&crm-ontology;safety">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;behavioral"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#sales -->
+
+    <owl:Class rdf:about="&crm-ontology;sales"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#segment -->
+
+    <owl:Class rdf:about="&crm-ontology;segment">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;loyality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#self -->
+
+    <owl:Class rdf:about="&crm-ontology;self">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;perception"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;own"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;emotion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#sendbulkemail -->
+
+    <owl:Class rdf:about="&crm-ontology;sendbulkemail">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;preference"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#sendemail -->
+
+    <owl:Class rdf:about="&crm-ontology;sendemail">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;preference"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#sendfax -->
+
+    <owl:Class rdf:about="&crm-ontology;sendfax">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;preference"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#sendmail -->
+
+    <owl:Class rdf:about="&crm-ontology;sendmail">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;preference"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#services -->
+
+    <owl:Class rdf:about="&crm-ontology;services">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#shipping -->
+
+    <owl:Class rdf:about="&crm-ontology;shipping">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;account"/>
+        <rdfs:subClassOf rdf:resource="&crm-ontology;contact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#sic -->
+
+    <owl:Class rdf:about="&crm-ontology;sic">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;profile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#silver -->
+
+    <owl:Class rdf:about="&crm-ontology;silver">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;segment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#single -->
+
+    <owl:Class rdf:about="&crm-ontology;single">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;maritialstatus"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#street -->
+
+    <owl:Class rdf:about="&crm-ontology;street">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;city"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#subject -->
+
+    <owl:Class rdf:about="&crm-ontology;subject"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#systemuser -->
+
+    <owl:Class rdf:about="&crm-ontology;systemuser">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;party"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;isOwnerOf"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;account"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;isMemberOf"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;team"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;workIn"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;businessunit"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#task -->
+
+    <owl:Class rdf:about="&crm-ontology;task">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;activity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;assignTo"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;contact"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;assignTo"/>
+                <owl:someValuesFrom rdf:resource="&crm-ontology;account"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#team -->
+
+    <owl:Class rdf:about="&crm-ontology;team"/>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#type -->
+
+    <owl:Class rdf:about="&crm-ontology;type">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;account"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#valueadded -->
+
+    <owl:Class rdf:about="&crm-ontology;valueadded">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#valuedestroy -->
+
+    <owl:Class rdf:about="&crm-ontology;valuedestroy">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;emotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#vip -->
+
+    <owl:Class rdf:about="&crm-ontology;vip">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;reward"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#web -->
+
+    <owl:Class rdf:about="&crm-ontology;web">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;address"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#widowed -->
+
+    <owl:Class rdf:about="&crm-ontology;widowed">
+        <rdfs:subClassOf rdf:resource="&crm-ontology;maritialstatus"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#AccountManager -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;AccountManager">
+        <rdf:type rdf:resource="&crm-ontology;connectionrole"/>
+        <owl:sameAs rdf:resource="&crm-ontology;DeliveryProfessional"/>
+        <owl:sameAs rdf:resource="&crm-ontology;IndustryExpert"/>
+        <owl:sameAs rdf:resource="&crm-ontology;SalesProfessional"/>
+        <owl:sameAs rdf:resource="&crm-ontology;SalesTeam"/>
+        <owl:sameAs rdf:resource="&crm-ontology;ServiceProfessional"/>
+        <owl:sameAs rdf:resource="&crm-ontology;TechnicalSalesProfessional"/>
+        <owl:sameAs rdf:resource="&crm-ontology;TerritoryManager"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#Accounting -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;Accounting">
+        <rdf:type rdf:resource="&crm-ontology;Industry"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#Agriculture -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;Agriculture">
+        <rdf:type rdf:resource="&crm-ontology;Industry"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#Airbone -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;Airbone">
+        <rdf:type rdf:resource="&crm-ontology;method"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#Business -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;Business">
+        <rdf:type rdf:resource="&crm-ontology;connectionrolecategory"/>
+        <owl:sameAs rdf:resource="&crm-ontology;Colleague"/>
+        <owl:sameAs rdf:resource="&crm-ontology;Employee"/>
+        <owl:sameAs rdf:resource="&crm-ontology;Employer"/>
+        <owl:sameAs rdf:resource="&crm-ontology;FormerEmployee"/>
+        <owl:sameAs rdf:resource="&crm-ontology;FormerEmployer"/>
+        <owl:sameAs rdf:resource="&crm-ontology;Partner"/>
+        <owl:sameAs rdf:resource="&crm-ontology;Referral"/>
+        <owl:sameAs rdf:resource="&crm-ontology;ReferredBy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#Champion -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;Champion">
+        <rdf:type rdf:resource="&crm-ontology;connectionrole"/>
+        <owl:sameAs rdf:resource="&crm-ontology;DecisionMaker"/>
+        <owl:sameAs rdf:resource="&crm-ontology;EconomicBuyer"/>
+        <owl:sameAs rdf:resource="&crm-ontology;EndUser"/>
+        <owl:sameAs rdf:resource="&crm-ontology;Influencer"/>
+        <owl:sameAs rdf:resource="&crm-ontology;Stakeholder"/>
+        <owl:sameAs rdf:resource="&crm-ontology;TechnicalBuyer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#Child -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;Child">
+        <rdf:type rdf:resource="&crm-ontology;connectionrole"/>
+        <owl:sameAs rdf:resource="&crm-ontology;Family"/>
+        <owl:sameAs rdf:resource="&crm-ontology;Parent"/>
+        <owl:sameAs rdf:resource="&crm-ontology;Spouse"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#Colleague -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;Colleague">
+        <rdf:type rdf:resource="&crm-ontology;connectionrole"/>
+        <owl:sameAs rdf:resource="&crm-ontology;Employee"/>
+        <owl:sameAs rdf:resource="&crm-ontology;Employer"/>
+        <owl:sameAs rdf:resource="&crm-ontology;FormerEmployee"/>
+        <owl:sameAs rdf:resource="&crm-ontology;FormerEmployer"/>
+        <owl:sameAs rdf:resource="&crm-ontology;Partner"/>
+        <owl:sameAs rdf:resource="&crm-ontology;Referral"/>
+        <owl:sameAs rdf:resource="&crm-ontology;ReferredBy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#DHL -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;DHL">
+        <rdf:type rdf:resource="&crm-ontology;method"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#DecisionMaker -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;DecisionMaker">
+        <rdf:type rdf:resource="&crm-ontology;connectionrole"/>
+        <owl:sameAs rdf:resource="&crm-ontology;EconomicBuyer"/>
+        <owl:sameAs rdf:resource="&crm-ontology;EndUser"/>
+        <owl:sameAs rdf:resource="&crm-ontology;Influencer"/>
+        <owl:sameAs rdf:resource="&crm-ontology;Stakeholder"/>
+        <owl:sameAs rdf:resource="&crm-ontology;TechnicalBuyer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#DeliveryProfessional -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;DeliveryProfessional">
+        <rdf:type rdf:resource="&crm-ontology;connectionrole"/>
+        <owl:sameAs rdf:resource="&crm-ontology;IndustryExpert"/>
+        <owl:sameAs rdf:resource="&crm-ontology;SalesProfessional"/>
+        <owl:sameAs rdf:resource="&crm-ontology;SalesTeam"/>
+        <owl:sameAs rdf:resource="&crm-ontology;ServiceProfessional"/>
+        <owl:sameAs rdf:resource="&crm-ontology;TechnicalSalesProfessional"/>
+        <owl:sameAs rdf:resource="&crm-ontology;TerritoryManager"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#EURO -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;EURO">
+        <rdf:type rdf:resource="&crm-ontology;currency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#EconomicBuyer -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;EconomicBuyer">
+        <rdf:type rdf:resource="&crm-ontology;connectionrole"/>
+        <owl:sameAs rdf:resource="&crm-ontology;EndUser"/>
+        <owl:sameAs rdf:resource="&crm-ontology;Influencer"/>
+        <owl:sameAs rdf:resource="&crm-ontology;Stakeholder"/>
+        <owl:sameAs rdf:resource="&crm-ontology;TechnicalBuyer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#Employee -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;Employee">
+        <rdf:type rdf:resource="&crm-ontology;connectionrole"/>
+        <owl:sameAs rdf:resource="&crm-ontology;Employer"/>
+        <owl:sameAs rdf:resource="&crm-ontology;FormerEmployee"/>
+        <owl:sameAs rdf:resource="&crm-ontology;FormerEmployer"/>
+        <owl:sameAs rdf:resource="&crm-ontology;Partner"/>
+        <owl:sameAs rdf:resource="&crm-ontology;Referral"/>
+        <owl:sameAs rdf:resource="&crm-ontology;ReferredBy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#Employer -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;Employer">
+        <rdf:type rdf:resource="&crm-ontology;connectionrole"/>
+        <owl:sameAs rdf:resource="&crm-ontology;FormerEmployee"/>
+        <owl:sameAs rdf:resource="&crm-ontology;FormerEmployer"/>
+        <owl:sameAs rdf:resource="&crm-ontology;Partner"/>
+        <owl:sameAs rdf:resource="&crm-ontology;Referral"/>
+        <owl:sameAs rdf:resource="&crm-ontology;ReferredBy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#EndUser -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;EndUser">
+        <rdf:type rdf:resource="&crm-ontology;connectionrole"/>
+        <owl:sameAs rdf:resource="&crm-ontology;Influencer"/>
+        <owl:sameAs rdf:resource="&crm-ontology;Stakeholder"/>
+        <owl:sameAs rdf:resource="&crm-ontology;TechnicalBuyer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#FOB -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;FOB">
+        <rdf:type rdf:resource="&crm-ontology;freightterm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#Family -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;Family">
+        <rdf:type rdf:resource="&crm-ontology;connectionrolecategory"/>
+        <owl:sameAs rdf:resource="&crm-ontology;Parent"/>
+        <owl:sameAs rdf:resource="&crm-ontology;Spouse"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#FedEx -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;FedEx">
+        <rdf:type rdf:resource="&crm-ontology;method"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#FormerEmployee -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;FormerEmployee">
+        <rdf:type rdf:resource="&crm-ontology;connectionrole"/>
+        <owl:sameAs rdf:resource="&crm-ontology;FormerEmployer"/>
+        <owl:sameAs rdf:resource="&crm-ontology;Partner"/>
+        <owl:sameAs rdf:resource="&crm-ontology;Referral"/>
+        <owl:sameAs rdf:resource="&crm-ontology;ReferredBy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#FormerEmployer -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;FormerEmployer">
+        <rdf:type rdf:resource="&crm-ontology;connectionrole"/>
+        <owl:sameAs rdf:resource="&crm-ontology;Partner"/>
+        <owl:sameAs rdf:resource="&crm-ontology;Referral"/>
+        <owl:sameAs rdf:resource="&crm-ontology;ReferredBy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#Full_Load -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;Full_Load">
+        <rdf:type rdf:resource="&crm-ontology;method"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#Home -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;Home">
+        <rdf:type rdf:resource="&crm-ontology;address"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#IndustryExpert -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;IndustryExpert">
+        <rdf:type rdf:resource="&crm-ontology;connectionrole"/>
+        <owl:sameAs rdf:resource="&crm-ontology;SalesProfessional"/>
+        <owl:sameAs rdf:resource="&crm-ontology;SalesTeam"/>
+        <owl:sameAs rdf:resource="&crm-ontology;ServiceProfessional"/>
+        <owl:sameAs rdf:resource="&crm-ontology;TechnicalSalesProfessional"/>
+        <owl:sameAs rdf:resource="&crm-ontology;TerritoryManager"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#Influencer -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;Influencer">
+        <rdf:type rdf:resource="&crm-ontology;connectionrole"/>
+        <owl:sameAs rdf:resource="&crm-ontology;Stakeholder"/>
+        <owl:sameAs rdf:resource="&crm-ontology;TechnicalBuyer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#Name -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;Name">
+        <rdf:type rdf:resource="&crm-ontology;account"/>
+        <rdf:type rdf:resource="&crm-ontology;city"/>
+        <rdf:type rdf:resource="&crm-ontology;contact"/>
+        <rdf:type rdf:resource="&crm-ontology;country"/>
+        <rdf:type rdf:resource="&crm-ontology;married"/>
+        <rdf:type rdf:resource="&crm-ontology;street"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;text"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#Net30 -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;Net30">
+        <rdf:type rdf:resource="&crm-ontology;paymentterm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#Net45 -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;Net45">
+        <rdf:type rdf:resource="&crm-ontology;paymentterm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#Net60 -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;Net60">
+        <rdf:type rdf:resource="&crm-ontology;paymentterm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#No_Charge -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;No_Charge">
+        <rdf:type rdf:resource="&crm-ontology;freightterm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#Parent -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;Parent">
+        <rdf:type rdf:resource="&crm-ontology;connectionrole"/>
+        <owl:sameAs rdf:resource="&crm-ontology;Spouse"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#Partner -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;Partner">
+        <rdf:type rdf:resource="&crm-ontology;connectionrole"/>
+        <owl:sameAs rdf:resource="&crm-ontology;Referral"/>
+        <owl:sameAs rdf:resource="&crm-ontology;ReferredBy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#Postal_Mail -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;Postal_Mail">
+        <rdf:type rdf:resource="&crm-ontology;method"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#PrimaryCase -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;PrimaryCase">
+        <rdf:type rdf:resource="&crm-ontology;connectionrole"/>
+        <owl:sameAs rdf:resource="&crm-ontology;RelatedCase"/>
+        <owl:sameAs rdf:resource="&crm-ontology;Service"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#Referral -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;Referral">
+        <rdf:type rdf:resource="&crm-ontology;connectionrole"/>
+        <owl:sameAs rdf:resource="&crm-ontology;ReferredBy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#ReferredBy -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;ReferredBy">
+        <rdf:type rdf:resource="&crm-ontology;connectionrole"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#RelatedCase -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;RelatedCase">
+        <rdf:type rdf:resource="&crm-ontology;connectionrole"/>
+        <owl:sameAs rdf:resource="&crm-ontology;Service"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#Retail -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;Retail">
+        <rdf:type rdf:resource="&crm-ontology;Industry"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#SalesProfessional -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;SalesProfessional">
+        <rdf:type rdf:resource="&crm-ontology;connectionrole"/>
+        <owl:sameAs rdf:resource="&crm-ontology;SalesTeam"/>
+        <owl:sameAs rdf:resource="&crm-ontology;ServiceProfessional"/>
+        <owl:sameAs rdf:resource="&crm-ontology;TechnicalSalesProfessional"/>
+        <owl:sameAs rdf:resource="&crm-ontology;TerritoryManager"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#SalesTeam -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;SalesTeam">
+        <rdf:type rdf:resource="&crm-ontology;connectionrolecategory"/>
+        <owl:sameAs rdf:resource="&crm-ontology;ServiceProfessional"/>
+        <owl:sameAs rdf:resource="&crm-ontology;TechnicalSalesProfessional"/>
+        <owl:sameAs rdf:resource="&crm-ontology;TerritoryManager"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#Service -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;Service">
+        <rdf:type rdf:resource="&crm-ontology;connectionrolecategory"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#ServiceProfessional -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;ServiceProfessional">
+        <rdf:type rdf:resource="&crm-ontology;connectionrole"/>
+        <owl:sameAs rdf:resource="&crm-ontology;TechnicalSalesProfessional"/>
+        <owl:sameAs rdf:resource="&crm-ontology;TerritoryManager"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#Spouse -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;Spouse">
+        <rdf:type rdf:resource="&crm-ontology;connectionrole"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#Stakeholder -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;Stakeholder">
+        <rdf:type rdf:resource="&crm-ontology;connectionrolecategory"/>
+        <owl:sameAs rdf:resource="&crm-ontology;TechnicalBuyer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#TL -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;TL">
+        <rdf:type rdf:resource="&crm-ontology;currency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#TechnicalBuyer -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;TechnicalBuyer">
+        <rdf:type rdf:resource="&crm-ontology;connectionrole"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#TechnicalSalesProfessional -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;TechnicalSalesProfessional">
+        <rdf:type rdf:resource="&crm-ontology;connectionrole"/>
+        <owl:sameAs rdf:resource="&crm-ontology;TerritoryManager"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#Technology -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;Technology">
+        <rdf:type rdf:resource="&crm-ontology;Industry"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#TerritoryManager -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;TerritoryManager">
+        <rdf:type rdf:resource="&crm-ontology;connectionrole"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#UPS -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;UPS">
+        <rdf:type rdf:resource="&crm-ontology;method"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#URL -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;URL">
+        <rdf:type rdf:resource="&crm-ontology;web"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;text"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#USD -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;USD">
+        <rdf:type rdf:resource="&crm-ontology;currency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#Will_Call -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;Will_Call">
+        <rdf:type rdf:resource="&crm-ontology;method"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#Work -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;Work">
+        <rdf:type rdf:resource="&crm-ontology;address"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#_Other -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;_Other">
+        <rdf:type rdf:resource="&crm-ontology;ownership"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#_Private -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;_Private">
+        <rdf:type rdf:resource="&crm-ontology;ownership"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#_Public -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;_Public">
+        <rdf:type rdf:resource="&crm-ontology;ownership"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#_Subsidiary -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;_Subsidiary">
+        <rdf:type rdf:resource="&crm-ontology;ownership"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#amount -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;amount">
+        <rdf:type rdf:resource="&crm-ontology;limit"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;money"/>
+                <owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+            </owl:Restriction>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#anniversary -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;anniversary">
+        <rdf:type rdf:resource="&crm-ontology;demographics"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#any -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;any">
+        <rdf:type rdf:resource="&crm-ontology;preference"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#appreciated -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;appreciated">
+        <rdf:type rdf:resource="&crm-ontology;esteem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#birthdate -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;birthdate">
+        <rdf:type rdf:resource="&crm-ontology;demographics"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#caredfor -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;caredfor">
+        <rdf:type rdf:resource="&crm-ontology;valueadded"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#code -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;code">
+        <rdf:type rdf:resource="&crm-ontology;sic"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;code"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#confident -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;confident">
+        <rdf:type rdf:resource="&crm-ontology;esteem"/>
+        <rdf:type rdf:resource="&crm-ontology;valueadded"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#confused -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;confused">
+        <rdf:type rdf:resource="&crm-ontology;valuedestroy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#courtdate -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;courtdate">
+        <rdf:type rdf:resource="&crm-ontology;divorced"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#disappointed -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;disappointed">
+        <rdf:type rdf:resource="&crm-ontology;valuedestroy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#dissatisfied -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;dissatisfied">
+        <rdf:type rdf:resource="&crm-ontology;valuedestroy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#e-mail -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;e-mail">
+        <rdf:type rdf:resource="&crm-ontology;electronic"/>
+        <rdf:type rdf:resource="&crm-ontology;preference"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&crm-ontology;text"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#energized -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;energized">
+        <rdf:type rdf:resource="&crm-ontology;valueadded"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#establishdate -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;establishdate">
+        <rdf:type rdf:resource="&crm-ontology;demographics"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#excited -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;excited">
+        <rdf:type rdf:resource="&crm-ontology;valueadded"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#exercise -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;exercise">
+        <rdf:type rdf:resource="&crm-ontology;physicological"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#fax -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;fax">
+        <rdf:type rdf:resource="&crm-ontology;preference"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#female -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;female">
+        <rdf:type rdf:resource="&crm-ontology;gender"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#food -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;food">
+        <rdf:type rdf:resource="&crm-ontology;physicological"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#frustrated -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;frustrated">
+        <rdf:type rdf:resource="&crm-ontology;valuedestroy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#high -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;high">
+        <rdf:type rdf:resource="&crm-ontology;fulfill"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#high_quality_product -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;high_quality_product">
+        <rdf:type rdf:resource="&crm-ontology;belief"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#hurried -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;hurried">
+        <rdf:type rdf:resource="&crm-ontology;valuedestroy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#important -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;important">
+        <rdf:type rdf:resource="&crm-ontology;esteem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#income -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;income">
+        <rdf:type rdf:resource="&crm-ontology;demographics"/>
+        <crm-ontology:money></crm-ontology:money>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#incontrol -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;incontrol">
+        <rdf:type rdf:resource="&crm-ontology;valueadded"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#innovative -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;innovative">
+        <rdf:type rdf:resource="&crm-ontology;belief"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#irritated -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;irritated">
+        <rdf:type rdf:resource="&crm-ontology;valuedestroy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#leader -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;leader">
+        <rdf:type rdf:resource="&crm-ontology;belief"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#low -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;low">
+        <rdf:type rdf:resource="&crm-ontology;fulfill"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#low_price -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;low_price">
+        <rdf:type rdf:resource="&crm-ontology;belief"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#mail -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;mail">
+        <rdf:type rdf:resource="&crm-ontology;preference"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#male -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;male">
+        <rdf:type rdf:resource="&crm-ontology;gender"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#medium -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;medium">
+        <rdf:type rdf:resource="&crm-ontology;fulfill"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#neglected -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;neglected">
+        <rdf:type rdf:resource="&crm-ontology;valuedestroy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#no -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;no">
+        <rdf:type rdf:resource="&crm-ontology;call"/>
+        <rdf:type rdf:resource="&crm-ontology;hold"/>
+        <rdf:type rdf:resource="&crm-ontology;sendbulkemail"/>
+        <rdf:type rdf:resource="&crm-ontology;sendemail"/>
+        <rdf:type rdf:resource="&crm-ontology;sendfax"/>
+        <rdf:type rdf:resource="&crm-ontology;sendmail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#normalcy -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;normalcy">
+        <rdf:type rdf:resource="&crm-ontology;safety"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#phone -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;phone">
+        <rdf:type rdf:resource="&crm-ontology;preference"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#pleased -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;pleased">
+        <rdf:type rdf:resource="&crm-ontology;valueadded"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#remembrancedate -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;remembrancedate">
+        <rdf:type rdf:resource="&crm-ontology;widowed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#respect_of_others -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;respect_of_others">
+        <rdf:type rdf:resource="&crm-ontology;esteem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#safe -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;safe">
+        <rdf:type rdf:resource="&crm-ontology;valueadded"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#security -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;security">
+        <rdf:type rdf:resource="&crm-ontology;safety"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#self_respect -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;self_respect">
+        <rdf:type rdf:resource="&crm-ontology;esteem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#shelter -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;shelter">
+        <rdf:type rdf:resource="&crm-ontology;safety"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#sleep -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;sleep">
+        <rdf:type rdf:resource="&crm-ontology;physicological"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#stimulate -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;stimulate">
+        <rdf:type rdf:resource="&crm-ontology;valueadded"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#stressed -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;stressed">
+        <rdf:type rdf:resource="&crm-ontology;valuedestroy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#trust -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;trust">
+        <rdf:type rdf:resource="&crm-ontology;belief"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#trusting -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;trusting">
+        <rdf:type rdf:resource="&crm-ontology;valueadded"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#unhappy -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;unhappy">
+        <rdf:type rdf:resource="&crm-ontology;valuedestroy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#value -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;value">
+        <rdf:type rdf:resource="&crm-ontology;valueadded"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#water -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;water">
+        <rdf:type rdf:resource="&crm-ontology;physicological"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#yes -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;yes">
+        <rdf:type rdf:resource="&crm-ontology;call"/>
+        <rdf:type rdf:resource="&crm-ontology;hold"/>
+        <rdf:type rdf:resource="&crm-ontology;sendbulkemail"/>
+        <rdf:type rdf:resource="&crm-ontology;sendemail"/>
+        <rdf:type rdf:resource="&crm-ontology;sendfax"/>
+        <rdf:type rdf:resource="&crm-ontology;sendmail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology#2_percent_10_and_Net30 -->
+
+    <owl:NamedIndividual rdf:about="&crm-ontology;2_percent_10_and_Net30">
+        <rdf:type rdf:resource="&crm-ontology;paymentterm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="&crm-ontology;AccountManager"/>
+            <rdf:Description rdf:about="&crm-ontology;DeliveryProfessional"/>
+            <rdf:Description rdf:about="&crm-ontology;IndustryExpert"/>
+            <rdf:Description rdf:about="&crm-ontology;SalesProfessional"/>
+            <rdf:Description rdf:about="&crm-ontology;ServiceProfessional"/>
+            <rdf:Description rdf:about="&crm-ontology;Stakeholder"/>
+            <rdf:Description rdf:about="&crm-ontology;TechnicalSalesProfessional"/>
+            <rdf:Description rdf:about="&crm-ontology;TerritoryManager"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="&crm-ontology;Colleague"/>
+            <rdf:Description rdf:about="&crm-ontology;Employee"/>
+            <rdf:Description rdf:about="&crm-ontology;Employer"/>
+            <rdf:Description rdf:about="&crm-ontology;FormerEmployee"/>
+            <rdf:Description rdf:about="&crm-ontology;FormerEmployer"/>
+            <rdf:Description rdf:about="&crm-ontology;Partner"/>
+            <rdf:Description rdf:about="&crm-ontology;Referral"/>
+            <rdf:Description rdf:about="&crm-ontology;ReferredBy"/>
+            <rdf:Description rdf:about="&crm-ontology;Service"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="&crm-ontology;Family"/>
+            <rdf:Description rdf:about="&crm-ontology;PrimaryCase"/>
+            <rdf:Description rdf:about="&crm-ontology;RelatedCase"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="&crm-ontology;AccountManager"/>
+            <rdf:Description rdf:about="&crm-ontology;DeliveryProfessional"/>
+            <rdf:Description rdf:about="&crm-ontology;IndustryExpert"/>
+            <rdf:Description rdf:about="&crm-ontology;SalesProfessional"/>
+            <rdf:Description rdf:about="&crm-ontology;Service"/>
+            <rdf:Description rdf:about="&crm-ontology;ServiceProfessional"/>
+            <rdf:Description rdf:about="&crm-ontology;TechnicalSalesProfessional"/>
+            <rdf:Description rdf:about="&crm-ontology;TerritoryManager"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="&crm-ontology;Child"/>
+            <rdf:Description rdf:about="&crm-ontology;Parent"/>
+            <rdf:Description rdf:about="&crm-ontology;Spouse"/>
+            <rdf:Description rdf:about="&crm-ontology;Stakeholder"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="&crm-ontology;PrimaryCase"/>
+            <rdf:Description rdf:about="&crm-ontology;RelatedCase"/>
+            <rdf:Description rdf:about="&crm-ontology;Stakeholder"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="&crm-ontology;anniversary"/>
+            <rdf:Description rdf:about="&crm-ontology;establishdate"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="&crm-ontology;birthdate"/>
+            <rdf:Description rdf:about="&crm-ontology;establishdate"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="&crm-ontology;Business"/>
+            <rdf:Description rdf:about="&crm-ontology;Champion"/>
+            <rdf:Description rdf:about="&crm-ontology;DecisionMaker"/>
+            <rdf:Description rdf:about="&crm-ontology;EconomicBuyer"/>
+            <rdf:Description rdf:about="&crm-ontology;EndUser"/>
+            <rdf:Description rdf:about="&crm-ontology;Influencer"/>
+            <rdf:Description rdf:about="&crm-ontology;TechnicalBuyer"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="&crm-ontology;PrimaryCase"/>
+            <rdf:Description rdf:about="&crm-ontology;RelatedCase"/>
+            <rdf:Description rdf:about="&crm-ontology;SalesTeam"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="&crm-ontology;AccountManager"/>
+            <rdf:Description rdf:about="&crm-ontology;Business"/>
+            <rdf:Description rdf:about="&crm-ontology;DeliveryProfessional"/>
+            <rdf:Description rdf:about="&crm-ontology;IndustryExpert"/>
+            <rdf:Description rdf:about="&crm-ontology;SalesProfessional"/>
+            <rdf:Description rdf:about="&crm-ontology;ServiceProfessional"/>
+            <rdf:Description rdf:about="&crm-ontology;TechnicalSalesProfessional"/>
+            <rdf:Description rdf:about="&crm-ontology;TerritoryManager"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="&crm-ontology;Business"/>
+            <rdf:Description rdf:about="&crm-ontology;PrimaryCase"/>
+            <rdf:Description rdf:about="&crm-ontology;RelatedCase"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="&crm-ontology;Champion"/>
+            <rdf:Description rdf:about="&crm-ontology;DecisionMaker"/>
+            <rdf:Description rdf:about="&crm-ontology;EconomicBuyer"/>
+            <rdf:Description rdf:about="&crm-ontology;EndUser"/>
+            <rdf:Description rdf:about="&crm-ontology;Influencer"/>
+            <rdf:Description rdf:about="&crm-ontology;SalesTeam"/>
+            <rdf:Description rdf:about="&crm-ontology;TechnicalBuyer"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="&crm-ontology;Colleague"/>
+            <rdf:Description rdf:about="&crm-ontology;Employee"/>
+            <rdf:Description rdf:about="&crm-ontology;Employer"/>
+            <rdf:Description rdf:about="&crm-ontology;Family"/>
+            <rdf:Description rdf:about="&crm-ontology;FormerEmployee"/>
+            <rdf:Description rdf:about="&crm-ontology;FormerEmployer"/>
+            <rdf:Description rdf:about="&crm-ontology;Partner"/>
+            <rdf:Description rdf:about="&crm-ontology;Referral"/>
+            <rdf:Description rdf:about="&crm-ontology;ReferredBy"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="&crm-ontology;Business"/>
+            <rdf:Description rdf:about="&crm-ontology;Family"/>
+            <rdf:Description rdf:about="&crm-ontology;SalesTeam"/>
+            <rdf:Description rdf:about="&crm-ontology;Service"/>
+            <rdf:Description rdf:about="&crm-ontology;Stakeholder"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="&crm-ontology;AccountManager"/>
+            <rdf:Description rdf:about="&crm-ontology;DeliveryProfessional"/>
+            <rdf:Description rdf:about="&crm-ontology;Family"/>
+            <rdf:Description rdf:about="&crm-ontology;IndustryExpert"/>
+            <rdf:Description rdf:about="&crm-ontology;SalesProfessional"/>
+            <rdf:Description rdf:about="&crm-ontology;ServiceProfessional"/>
+            <rdf:Description rdf:about="&crm-ontology;TechnicalSalesProfessional"/>
+            <rdf:Description rdf:about="&crm-ontology;TerritoryManager"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="&crm-ontology;Child"/>
+            <rdf:Description rdf:about="&crm-ontology;Parent"/>
+            <rdf:Description rdf:about="&crm-ontology;Service"/>
+            <rdf:Description rdf:about="&crm-ontology;Spouse"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="&crm-ontology;Champion"/>
+            <rdf:Description rdf:about="&crm-ontology;DecisionMaker"/>
+            <rdf:Description rdf:about="&crm-ontology;EconomicBuyer"/>
+            <rdf:Description rdf:about="&crm-ontology;EndUser"/>
+            <rdf:Description rdf:about="&crm-ontology;Family"/>
+            <rdf:Description rdf:about="&crm-ontology;Influencer"/>
+            <rdf:Description rdf:about="&crm-ontology;TechnicalBuyer"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="&crm-ontology;Child"/>
+            <rdf:Description rdf:about="&crm-ontology;Parent"/>
+            <rdf:Description rdf:about="&crm-ontology;SalesTeam"/>
+            <rdf:Description rdf:about="&crm-ontology;Spouse"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="&crm-ontology;Champion"/>
+            <rdf:Description rdf:about="&crm-ontology;DecisionMaker"/>
+            <rdf:Description rdf:about="&crm-ontology;EconomicBuyer"/>
+            <rdf:Description rdf:about="&crm-ontology;EndUser"/>
+            <rdf:Description rdf:about="&crm-ontology;Influencer"/>
+            <rdf:Description rdf:about="&crm-ontology;Service"/>
+            <rdf:Description rdf:about="&crm-ontology;TechnicalBuyer"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="&crm-ontology;Colleague"/>
+            <rdf:Description rdf:about="&crm-ontology;Employee"/>
+            <rdf:Description rdf:about="&crm-ontology;Employer"/>
+            <rdf:Description rdf:about="&crm-ontology;FormerEmployee"/>
+            <rdf:Description rdf:about="&crm-ontology;FormerEmployer"/>
+            <rdf:Description rdf:about="&crm-ontology;Partner"/>
+            <rdf:Description rdf:about="&crm-ontology;Referral"/>
+            <rdf:Description rdf:about="&crm-ontology;ReferredBy"/>
+            <rdf:Description rdf:about="&crm-ontology;Stakeholder"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="&crm-ontology;Business"/>
+            <rdf:Description rdf:about="&crm-ontology;Child"/>
+            <rdf:Description rdf:about="&crm-ontology;Parent"/>
+            <rdf:Description rdf:about="&crm-ontology;Spouse"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="&crm-ontology;Colleague"/>
+            <rdf:Description rdf:about="&crm-ontology;Employee"/>
+            <rdf:Description rdf:about="&crm-ontology;Employer"/>
+            <rdf:Description rdf:about="&crm-ontology;FormerEmployee"/>
+            <rdf:Description rdf:about="&crm-ontology;FormerEmployer"/>
+            <rdf:Description rdf:about="&crm-ontology;Partner"/>
+            <rdf:Description rdf:about="&crm-ontology;Referral"/>
+            <rdf:Description rdf:about="&crm-ontology;ReferredBy"/>
+            <rdf:Description rdf:about="&crm-ontology;SalesTeam"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+

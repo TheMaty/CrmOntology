@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Ontology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.comu.edu.tr/eatamuh/ontologies/OWLConfiguration OWLConfiguration.xsd">
+  <OWLConfiguration>
+    <Database type="Staging" connectionString=""/>
+    <OWLItem type="Accurate" low="-1" medium="-1" high="-1" businessrequired="-1" businessrecommend="-1" noconstraint="-1">
+      <Map key="" value=""/>
+    </OWLItem>
+  </OWLConfiguration>
+</Ontology>

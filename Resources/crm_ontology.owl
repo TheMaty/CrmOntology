@@ -1,0 +1,2808 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology"
+     versionIRI="http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology/1.0.0">
+    <Prefix name="" IRI="http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="1.0.0" IRI="http://www.comu.edu.tr/eatamuh/ontologies/2014/9/crm-ontology/1.0.0#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">initial version in Karlskrona,Sweden in 2014-09-22 20:40</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Industry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#_10000points"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#_1000points"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#_100points"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#_250points"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#_5000points"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#_500points"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#_50points"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#_7500points"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#_750points"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#_holding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#_limited"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#_private"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#account"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#accurate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#activity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#address"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#agreeableness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#annotation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#appointment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#article"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#attachment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#attitude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#avantgarde"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#behavioral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#belief"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#benefit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#billing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#businessunit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#call"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#campaign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#campaignactivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#case"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#characteristics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#churn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#city"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#classic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#competitor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#connection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#connectionrole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#connectionrolecategory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#conscientiousness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#consumer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#contact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#contract"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#corporations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#credict"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#currency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#customer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#demographics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#desire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#divorced"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#drive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#electronic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#email"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#emotion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#entitlement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#equipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#esteem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#extraversion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fax"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#freightterm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fulfill"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gender"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#goal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gold"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#goods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#governments"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hold"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#incident"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#invoice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#kbarticle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#knowledge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#latent_need"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lead"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#letter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lifestyle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#limit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#loyality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#maritialstatus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#marketing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#married"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#motivation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#negative_experience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#neuroticism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#non-government"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#openness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#opportunity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#order"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ownership"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#party"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#paymentterm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perception"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#personality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#phone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#physicological"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#possitive_experience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#postal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#preference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#premium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#price"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#profile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#quote"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#retention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#reward"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#safety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#segment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#self"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sendbulkemail"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sendemail"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sendfax"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sendmail"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#services"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shipping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#silver"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#single"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#street"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#subject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#systemuser"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#task"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#team"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#valueadded"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#valuedestroy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vip"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#web"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#widowed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aim"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#asRole"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#assignTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#callTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#choice"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#complaintOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#connectTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#connectionroleOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#from"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAnnotation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAppoitment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAttachment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasConnection"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEmail"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFax"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIssue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLetter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOpportunity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPhoneCall"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTask"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#host"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCategorized"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isChildOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isEnclosed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isLocationOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMemberOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isOwnedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isOwnerOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isParentCustomerOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isParentOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPartOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPrimaryContactOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isfor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#leaveNote"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#live"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#need"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#negative"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#own"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#positive"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#purchase"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requires"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#scheduleTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#sentTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#stayIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#use"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#want"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#workIn"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#code"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#money"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#text"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AccountManager"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Accounting"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Agriculture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Airbone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Business"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Champion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Child"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Colleague"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DHL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DecisionMaker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DeliveryProfessional"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EURO"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EconomicBuyer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Employee"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Employer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EndUser"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FOB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Family"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FedEx"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FormerEmployee"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FormerEmployer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Full_Load"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Home"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IndustryExpert"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Influencer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Net30"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Net45"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Net60"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#No_Charge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Parent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Partner"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Postal_Mail"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PrimaryCase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Referral"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ReferredBy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RelatedCase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Retail"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SalesProfessional"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SalesTeam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Service"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ServiceProfessional"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spouse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stakeholder"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TechnicalBuyer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TechnicalSalesProfessional"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Technology"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TerritoryManager"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UPS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#URL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#USD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Will_Call"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Work"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_Other"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_Private"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_Public"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_Subsidiary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#amount"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#anniversary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#any"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#appreciated"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#birthdate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#caredfor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#code"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#confident"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#confused"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#courtdate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#disappointed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dissatisfied"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#e-mail"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#energized"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#establishdate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#excited"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#exercise"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fax"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#female"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#food"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#frustrated"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#high"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#high_quality_product"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hurried"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#important"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#income"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#incontrol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#innovative"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#irritated"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#leader"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#low"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#low_price"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mail"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#male"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#medium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#neglected"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#no"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#normalcy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#phone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pleased"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#remembrancedate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#respect_of_others"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#safe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#security"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#self_respect"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#shelter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sleep"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#stimulate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#stressed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#trust"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#trusting"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#unhappy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#value"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#water"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#yes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2_percent_10_and_Net30"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Industry"/>
+        <Class IRI="#profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#_10000points"/>
+        <Class IRI="#vip"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#_1000points"/>
+        <Class IRI="#avantgarde"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#_100points"/>
+        <Class IRI="#classic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#_250points"/>
+        <Class IRI="#classic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#_5000points"/>
+        <Class IRI="#vip"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#_500points"/>
+        <Class IRI="#avantgarde"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#_50points"/>
+        <Class IRI="#classic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#_7500points"/>
+        <Class IRI="#vip"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#_750points"/>
+        <Class IRI="#avantgarde"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#_holding"/>
+        <Class IRI="#corporations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#_limited"/>
+        <Class IRI="#corporations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#_private"/>
+        <Class IRI="#corporations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#account"/>
+        <Class IRI="#customer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#account"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAnnotation"/>
+            <Class IRI="#annotation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#account"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAppoitment"/>
+            <Class IRI="#appointment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#account"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEmail"/>
+            <Class IRI="#email"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#account"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFax"/>
+            <Class IRI="#fax"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#account"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIssue"/>
+            <Class IRI="#incident"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#account"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasLetter"/>
+            <Class IRI="#letter"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#account"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPhoneCall"/>
+            <Class IRI="#phone"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#account"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTask"/>
+            <Class IRI="#task"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#account"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isOwnedBy"/>
+            <Class IRI="#systemuser"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#account"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isParentCustomerOf"/>
+            <Class IRI="#account"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#account"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isParentCustomerOf"/>
+            <Class IRI="#contact"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#account"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#stayIn"/>
+            <Class IRI="#address"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#accurate"/>
+        <Class IRI="#account"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#accurate"/>
+        <Class IRI="#contact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#address"/>
+        <Class IRI="#demographics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#address"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isLocationOf"/>
+            <Class IRI="#account"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#address"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isLocationOf"/>
+            <Class IRI="#contact"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#agreeableness"/>
+        <Class IRI="#personality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#agreeableness"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#positive"/>
+            <Class IRI="#perception"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#annotation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAttachment"/>
+            <Class IRI="#attachment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#annotation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#leaveNote"/>
+            <Class IRI="#account"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#annotation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#leaveNote"/>
+            <Class IRI="#contact"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#appointment"/>
+        <Class IRI="#activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#appointment"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#scheduleTo"/>
+            <Class IRI="#account"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#appointment"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#scheduleTo"/>
+            <Class IRI="#contact"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#attachment"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isEnclosed"/>
+            <Class IRI="#annotation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#attitude"/>
+        <Class IRI="#characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#avantgarde"/>
+        <Class IRI="#reward"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#behavioral"/>
+        <Class IRI="#motivation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#belief"/>
+        <Class IRI="#characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#benefit"/>
+        <Class IRI="#perception"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#billing"/>
+        <Class IRI="#account"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#billing"/>
+        <Class IRI="#contact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#businessunit"/>
+        <Class IRI="#party"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#businessunit"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#host"/>
+            <Class IRI="#systemuser"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#call"/>
+        <Class IRI="#preference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#campaign"/>
+        <Class IRI="#marketing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#campaignactivity"/>
+        <Class IRI="#activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#characteristics"/>
+        <Class IRI="#account"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#characteristics"/>
+        <Class IRI="#contact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#churn"/>
+        <Class IRI="#account"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#churn"/>
+        <Class IRI="#contact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#city"/>
+        <Class IRI="#country"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#classic"/>
+        <Class IRI="#reward"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#competitor"/>
+        <Class IRI="#party"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#connection"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#connectTo"/>
+            <Class IRI="#account"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#connection"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#connectTo"/>
+            <Class IRI="#contact"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#connectionrole"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#asRole"/>
+            <Class IRI="#connection"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#connectionrolecategory"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isCategorized"/>
+            <Class IRI="#connectionrole"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#conscientiousness"/>
+        <Class IRI="#personality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#conscientiousness"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#positive"/>
+            <Class IRI="#perception"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#consumer"/>
+        <Class IRI="#motivation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#contact"/>
+        <Class IRI="#customer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#contact"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAnnotation"/>
+            <Class IRI="#annotation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#contact"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAppoitment"/>
+            <Class IRI="#appointment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#contact"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEmail"/>
+            <Class IRI="#email"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#contact"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFax"/>
+            <Class IRI="#fax"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#contact"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIssue"/>
+            <Class IRI="#incident"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#contact"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasLetter"/>
+            <Class IRI="#letter"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#contact"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPhoneCall"/>
+            <Class IRI="#phone"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#contact"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTask"/>
+            <Class IRI="#task"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#contact"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isOwnedBy"/>
+            <Class IRI="#systemuser"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#contact"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isPrimaryContactOf"/>
+            <Class IRI="#account"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#contact"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#stayIn"/>
+            <Class IRI="#address"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#contract"/>
+        <Class IRI="#case"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#corporations"/>
+        <Class IRI="#type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#country"/>
+        <Class IRI="#postal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#credict"/>
+        <Class IRI="#billing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#currency"/>
+        <Class IRI="#billing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#customer"/>
+        <Class IRI="#party"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#demographics"/>
+        <Class IRI="#account"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#demographics"/>
+        <Class IRI="#contact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#desire"/>
+        <Class IRI="#consumer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#desire"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#to"/>
+            <Class IRI="#product"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#divorced"/>
+        <Class IRI="#maritialstatus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#drive"/>
+        <Class IRI="#consumer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#drive"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#to"/>
+            <Class IRI="#product"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#electronic"/>
+        <Class IRI="#address"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#email"/>
+        <Class IRI="#activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#email"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#sentTo"/>
+            <Class IRI="#account"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#email"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#sentTo"/>
+            <Class IRI="#contact"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#emotion"/>
+        <Class IRI="#contact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#entitlement"/>
+        <Class IRI="#case"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#equipment"/>
+        <Class IRI="#case"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#esteem"/>
+        <Class IRI="#behavioral"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#extraversion"/>
+        <Class IRI="#personality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#extraversion"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#positive"/>
+            <Class IRI="#perception"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fax"/>
+        <Class IRI="#activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fax"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#sentTo"/>
+            <Class IRI="#account"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fax"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#sentTo"/>
+            <Class IRI="#contact"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#freightterm"/>
+        <Class IRI="#shipping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fulfill"/>
+        <Class IRI="#accurate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gender"/>
+        <Class IRI="#demographics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#goal"/>
+        <Class IRI="#marketing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gold"/>
+        <Class IRI="#segment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#goods"/>
+        <Class IRI="#product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#governments"/>
+        <Class IRI="#type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hold"/>
+        <Class IRI="#credict"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#incident"/>
+        <Class IRI="#case"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#incident"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#complaintOf"/>
+            <Class IRI="#account"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#incident"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#complaintOf"/>
+            <Class IRI="#contact"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#invoice"/>
+        <Class IRI="#sales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#knowledge"/>
+        <Class IRI="#characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#knowledge"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#aim"/>
+            <Class IRI="#product"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#knowledge"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#need"/>
+            <Class IRI="#product"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#knowledge"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#want"/>
+            <Class IRI="#product"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#latent_need"/>
+        <Class IRI="#consumer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#latent_need"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#to"/>
+            <Class IRI="#product"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lead"/>
+        <Class IRI="#customer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#letter"/>
+        <Class IRI="#activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#letter"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#sentTo"/>
+            <Class IRI="#account"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#letter"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#sentTo"/>
+            <Class IRI="#contact"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lifestyle"/>
+        <Class IRI="#characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lifestyle"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#choice"/>
+            <Class IRI="#product"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lifestyle"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isPartOf"/>
+            <Class IRI="#demographics"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lifestyle"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#purchase"/>
+            <Class IRI="#product"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lifestyle"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#use"/>
+            <Class IRI="#product"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lifestyle"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#live"/>
+            <Class IRI="#postal"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#limit"/>
+        <Class IRI="#credict"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#loyality"/>
+        <Class IRI="#account"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#loyality"/>
+        <Class IRI="#contact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#maritialstatus"/>
+        <Class IRI="#demographics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#married"/>
+        <Class IRI="#maritialstatus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#method"/>
+        <Class IRI="#shipping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#motivation"/>
+        <Class IRI="#characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#negative_experience"/>
+        <Class IRI="#attitude"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#negative_experience"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#from"/>
+            <Class IRI="#product"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#neuroticism"/>
+        <Class IRI="#personality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#neuroticism"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#negative"/>
+            <Class IRI="#perception"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#non-government"/>
+        <Class IRI="#type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#openness"/>
+        <Class IRI="#personality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#opportunity"/>
+        <Class IRI="#sales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#opportunity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isfor"/>
+            <Class IRI="#account"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#opportunity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isfor"/>
+            <Class IRI="#contact"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#order"/>
+        <Class IRI="#sales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ownership"/>
+        <Class IRI="#profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#paymentterm"/>
+        <Class IRI="#billing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perception"/>
+        <Class IRI="#characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#personality"/>
+        <Class IRI="#characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#personality"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#positive"/>
+            <Class IRI="#perception"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#phone"/>
+        <Class IRI="#activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#phone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#callTo"/>
+            <Class IRI="#account"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#phone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#callTo"/>
+            <Class IRI="#contact"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#physicological"/>
+        <Class IRI="#behavioral"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#possitive_experience"/>
+        <Class IRI="#attitude"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#possitive_experience"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#from"/>
+            <Class IRI="#product"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#postal"/>
+        <Class IRI="#address"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#preference"/>
+        <Class IRI="#account"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#preference"/>
+        <Class IRI="#contact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#premium"/>
+        <Class IRI="#segment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#price"/>
+        <Class IRI="#perception"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#process"/>
+        <Class IRI="#product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#product"/>
+        <Class IRI="#sales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#profile"/>
+        <Class IRI="#account"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#quote"/>
+        <Class IRI="#sales"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#retention"/>
+        <Class IRI="#account"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#retention"/>
+        <Class IRI="#contact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#retention"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requires"/>
+            <Class IRI="#marketing"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#retention"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requires"/>
+            <Class IRI="#opportunity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#reward"/>
+        <Class IRI="#loyality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#safety"/>
+        <Class IRI="#behavioral"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#segment"/>
+        <Class IRI="#loyality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#self"/>
+        <Class IRI="#perception"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#self"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#own"/>
+            <Class IRI="#emotion"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sendbulkemail"/>
+        <Class IRI="#preference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sendemail"/>
+        <Class IRI="#preference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sendfax"/>
+        <Class IRI="#preference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sendmail"/>
+        <Class IRI="#preference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#services"/>
+        <Class IRI="#product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shipping"/>
+        <Class IRI="#account"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shipping"/>
+        <Class IRI="#contact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sic"/>
+        <Class IRI="#profile"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#silver"/>
+        <Class IRI="#segment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#single"/>
+        <Class IRI="#maritialstatus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#street"/>
+        <Class IRI="#city"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#systemuser"/>
+        <Class IRI="#party"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#systemuser"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isMemberOf"/>
+            <Class IRI="#team"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#systemuser"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isOwnerOf"/>
+            <Class IRI="#account"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#systemuser"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isOwnerOf"/>
+            <Class IRI="#contact"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#systemuser"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#workIn"/>
+            <Class IRI="#businessunit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#task"/>
+        <Class IRI="#activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#task"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#assignTo"/>
+            <Class IRI="#account"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#task"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#assignTo"/>
+            <Class IRI="#contact"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#type"/>
+        <Class IRI="#account"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#valueadded"/>
+        <Class IRI="#emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#valuedestroy"/>
+        <Class IRI="#emotion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vip"/>
+        <Class IRI="#reward"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#web"/>
+        <Class IRI="#address"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#widowed"/>
+        <Class IRI="#maritialstatus"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#account"/>
+        <Class IRI="#agreeableness"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#account"/>
+        <Class IRI="#conscientiousness"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#account"/>
+        <Class IRI="#extraversion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#account"/>
+        <Class IRI="#gender"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#account"/>
+        <Class IRI="#lifestyle"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#account"/>
+        <Class IRI="#maritialstatus"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#account"/>
+        <Class IRI="#neuroticism"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#account"/>
+        <Class IRI="#openness"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#account"/>
+        <Class IRI="#personality"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#account"/>
+        <Class IRI="#physicological"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#account"/>
+        <Class IRI="#self"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#connectionrole"/>
+        <NamedIndividual IRI="#AccountManager"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Industry"/>
+        <NamedIndividual IRI="#Accounting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Industry"/>
+        <NamedIndividual IRI="#Agriculture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#method"/>
+        <NamedIndividual IRI="#Airbone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#connectionrolecategory"/>
+        <NamedIndividual IRI="#Business"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#connectionrole"/>
+        <NamedIndividual IRI="#Champion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#connectionrole"/>
+        <NamedIndividual IRI="#Child"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#connectionrole"/>
+        <NamedIndividual IRI="#Colleague"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#method"/>
+        <NamedIndividual IRI="#DHL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#connectionrole"/>
+        <NamedIndividual IRI="#DecisionMaker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#connectionrole"/>
+        <NamedIndividual IRI="#DeliveryProfessional"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#currency"/>
+        <NamedIndividual IRI="#EURO"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#connectionrole"/>
+        <NamedIndividual IRI="#EconomicBuyer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#connectionrole"/>
+        <NamedIndividual IRI="#Employee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#connectionrole"/>
+        <NamedIndividual IRI="#Employer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#connectionrole"/>
+        <NamedIndividual IRI="#EndUser"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#freightterm"/>
+        <NamedIndividual IRI="#FOB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#connectionrolecategory"/>
+        <NamedIndividual IRI="#Family"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#method"/>
+        <NamedIndividual IRI="#FedEx"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#connectionrole"/>
+        <NamedIndividual IRI="#FormerEmployee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#connectionrole"/>
+        <NamedIndividual IRI="#FormerEmployer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#method"/>
+        <NamedIndividual IRI="#Full_Load"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#address"/>
+        <NamedIndividual IRI="#Home"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#connectionrole"/>
+        <NamedIndividual IRI="#IndustryExpert"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#connectionrole"/>
+        <NamedIndividual IRI="#Influencer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#account"/>
+        <NamedIndividual IRI="#Name"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#city"/>
+        <NamedIndividual IRI="#Name"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#contact"/>
+        <NamedIndividual IRI="#Name"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#country"/>
+        <NamedIndividual IRI="#Name"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#married"/>
+        <NamedIndividual IRI="#Name"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#street"/>
+        <NamedIndividual IRI="#Name"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#text"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+        <NamedIndividual IRI="#Name"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#paymentterm"/>
+        <NamedIndividual IRI="#Net30"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#paymentterm"/>
+        <NamedIndividual IRI="#Net45"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#paymentterm"/>
+        <NamedIndividual IRI="#Net60"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#freightterm"/>
+        <NamedIndividual IRI="#No_Charge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#connectionrole"/>
+        <NamedIndividual IRI="#Parent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#connectionrole"/>
+        <NamedIndividual IRI="#Partner"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#method"/>
+        <NamedIndividual IRI="#Postal_Mail"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#connectionrole"/>
+        <NamedIndividual IRI="#PrimaryCase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#connectionrole"/>
+        <NamedIndividual IRI="#Referral"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#connectionrole"/>
+        <NamedIndividual IRI="#ReferredBy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#connectionrole"/>
+        <NamedIndividual IRI="#RelatedCase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Industry"/>
+        <NamedIndividual IRI="#Retail"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#connectionrole"/>
+        <NamedIndividual IRI="#SalesProfessional"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#connectionrolecategory"/>
+        <NamedIndividual IRI="#SalesTeam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#connectionrolecategory"/>
+        <NamedIndividual IRI="#Service"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#connectionrole"/>
+        <NamedIndividual IRI="#ServiceProfessional"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#connectionrole"/>
+        <NamedIndividual IRI="#Spouse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#connectionrolecategory"/>
+        <NamedIndividual IRI="#Stakeholder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#currency"/>
+        <NamedIndividual IRI="#TL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#connectionrole"/>
+        <NamedIndividual IRI="#TechnicalBuyer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#connectionrole"/>
+        <NamedIndividual IRI="#TechnicalSalesProfessional"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Industry"/>
+        <NamedIndividual IRI="#Technology"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#connectionrole"/>
+        <NamedIndividual IRI="#TerritoryManager"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#method"/>
+        <NamedIndividual IRI="#UPS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#web"/>
+        <NamedIndividual IRI="#URL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#text"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+        <NamedIndividual IRI="#URL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#currency"/>
+        <NamedIndividual IRI="#USD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#method"/>
+        <NamedIndividual IRI="#Will_Call"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#address"/>
+        <NamedIndividual IRI="#Work"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ownership"/>
+        <NamedIndividual IRI="#_Other"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ownership"/>
+        <NamedIndividual IRI="#_Private"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ownership"/>
+        <NamedIndividual IRI="#_Public"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ownership"/>
+        <NamedIndividual IRI="#_Subsidiary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#limit"/>
+        <NamedIndividual IRI="#amount"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#money"/>
+            <Datatype abbreviatedIRI="xsd:decimal"/>
+        </DataSomeValuesFrom>
+        <NamedIndividual IRI="#amount"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#demographics"/>
+        <NamedIndividual IRI="#anniversary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#preference"/>
+        <NamedIndividual IRI="#any"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#esteem"/>
+        <NamedIndividual IRI="#appreciated"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#demographics"/>
+        <NamedIndividual IRI="#birthdate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#valueadded"/>
+        <NamedIndividual IRI="#caredfor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sic"/>
+        <NamedIndividual IRI="#code"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#code"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+        <NamedIndividual IRI="#code"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#esteem"/>
+        <NamedIndividual IRI="#confident"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#valueadded"/>
+        <NamedIndividual IRI="#confident"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#valuedestroy"/>
+        <NamedIndividual IRI="#confused"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#divorced"/>
+        <NamedIndividual IRI="#courtdate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#valuedestroy"/>
+        <NamedIndividual IRI="#disappointed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#valuedestroy"/>
+        <NamedIndividual IRI="#dissatisfied"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#electronic"/>
+        <NamedIndividual IRI="#e-mail"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#preference"/>
+        <NamedIndividual IRI="#e-mail"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#text"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+        <NamedIndividual IRI="#e-mail"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#valueadded"/>
+        <NamedIndividual IRI="#energized"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#demographics"/>
+        <NamedIndividual IRI="#establishdate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#valueadded"/>
+        <NamedIndividual IRI="#excited"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#physicological"/>
+        <NamedIndividual IRI="#exercise"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#preference"/>
+        <NamedIndividual IRI="#fax"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gender"/>
+        <NamedIndividual IRI="#female"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#physicological"/>
+        <NamedIndividual IRI="#food"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#valuedestroy"/>
+        <NamedIndividual IRI="#frustrated"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#fulfill"/>
+        <NamedIndividual IRI="#high"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#belief"/>
+        <NamedIndividual IRI="#high_quality_product"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#valuedestroy"/>
+        <NamedIndividual IRI="#hurried"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#esteem"/>
+        <NamedIndividual IRI="#important"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#demographics"/>
+        <NamedIndividual IRI="#income"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#valueadded"/>
+        <NamedIndividual IRI="#incontrol"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#belief"/>
+        <NamedIndividual IRI="#innovative"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#valuedestroy"/>
+        <NamedIndividual IRI="#irritated"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#belief"/>
+        <NamedIndividual IRI="#leader"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#fulfill"/>
+        <NamedIndividual IRI="#low"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#belief"/>
+        <NamedIndividual IRI="#low_price"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#preference"/>
+        <NamedIndividual IRI="#mail"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gender"/>
+        <NamedIndividual IRI="#male"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#fulfill"/>
+        <NamedIndividual IRI="#medium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#valuedestroy"/>
+        <NamedIndividual IRI="#neglected"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#call"/>
+        <NamedIndividual IRI="#no"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#hold"/>
+        <NamedIndividual IRI="#no"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sendbulkemail"/>
+        <NamedIndividual IRI="#no"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sendemail"/>
+        <NamedIndividual IRI="#no"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sendfax"/>
+        <NamedIndividual IRI="#no"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sendmail"/>
+        <NamedIndividual IRI="#no"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#safety"/>
+        <NamedIndividual IRI="#normalcy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#preference"/>
+        <NamedIndividual IRI="#phone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#valueadded"/>
+        <NamedIndividual IRI="#pleased"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#churn"/>
+        <NamedIndividual IRI="#rate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#widowed"/>
+        <NamedIndividual IRI="#remembrancedate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#esteem"/>
+        <NamedIndividual IRI="#respect_of_others"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#valueadded"/>
+        <NamedIndividual IRI="#safe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#safety"/>
+        <NamedIndividual IRI="#security"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#esteem"/>
+        <NamedIndividual IRI="#self_respect"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#safety"/>
+        <NamedIndividual IRI="#shelter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#physicological"/>
+        <NamedIndividual IRI="#sleep"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#valueadded"/>
+        <NamedIndividual IRI="#stimulate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#valuedestroy"/>
+        <NamedIndividual IRI="#stressed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#belief"/>
+        <NamedIndividual IRI="#trust"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#valueadded"/>
+        <NamedIndividual IRI="#trusting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#valuedestroy"/>
+        <NamedIndividual IRI="#unhappy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#valueadded"/>
+        <NamedIndividual IRI="#value"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#physicological"/>
+        <NamedIndividual IRI="#water"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#call"/>
+        <NamedIndividual IRI="#yes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#hold"/>
+        <NamedIndividual IRI="#yes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sendbulkemail"/>
+        <NamedIndividual IRI="#yes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sendemail"/>
+        <NamedIndividual IRI="#yes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sendfax"/>
+        <NamedIndividual IRI="#yes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sendmail"/>
+        <NamedIndividual IRI="#yes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#paymentterm"/>
+        <NamedIndividual IRI="#2_percent_10_and_Net30"/>
+    </ClassAssertion>
+    <SameIndividual>
+        <NamedIndividual IRI="#AccountManager"/>
+        <NamedIndividual IRI="#DeliveryProfessional"/>
+        <NamedIndividual IRI="#IndustryExpert"/>
+        <NamedIndividual IRI="#SalesProfessional"/>
+        <NamedIndividual IRI="#SalesTeam"/>
+        <NamedIndividual IRI="#ServiceProfessional"/>
+        <NamedIndividual IRI="#TechnicalSalesProfessional"/>
+        <NamedIndividual IRI="#TerritoryManager"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Business"/>
+        <NamedIndividual IRI="#Colleague"/>
+        <NamedIndividual IRI="#Employee"/>
+        <NamedIndividual IRI="#Employer"/>
+        <NamedIndividual IRI="#FormerEmployee"/>
+        <NamedIndividual IRI="#FormerEmployer"/>
+        <NamedIndividual IRI="#Partner"/>
+        <NamedIndividual IRI="#Referral"/>
+        <NamedIndividual IRI="#ReferredBy"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Champion"/>
+        <NamedIndividual IRI="#DecisionMaker"/>
+        <NamedIndividual IRI="#EconomicBuyer"/>
+        <NamedIndividual IRI="#EndUser"/>
+        <NamedIndividual IRI="#Influencer"/>
+        <NamedIndividual IRI="#Stakeholder"/>
+        <NamedIndividual IRI="#TechnicalBuyer"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Child"/>
+        <NamedIndividual IRI="#Family"/>
+        <NamedIndividual IRI="#Parent"/>
+        <NamedIndividual IRI="#Spouse"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#PrimaryCase"/>
+        <NamedIndividual IRI="#RelatedCase"/>
+        <NamedIndividual IRI="#Service"/>
+    </SameIndividual>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#AccountManager"/>
+        <NamedIndividual IRI="#Business"/>
+        <NamedIndividual IRI="#DeliveryProfessional"/>
+        <NamedIndividual IRI="#IndustryExpert"/>
+        <NamedIndividual IRI="#SalesProfessional"/>
+        <NamedIndividual IRI="#ServiceProfessional"/>
+        <NamedIndividual IRI="#TechnicalSalesProfessional"/>
+        <NamedIndividual IRI="#TerritoryManager"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#AccountManager"/>
+        <NamedIndividual IRI="#DeliveryProfessional"/>
+        <NamedIndividual IRI="#Family"/>
+        <NamedIndividual IRI="#IndustryExpert"/>
+        <NamedIndividual IRI="#SalesProfessional"/>
+        <NamedIndividual IRI="#ServiceProfessional"/>
+        <NamedIndividual IRI="#TechnicalSalesProfessional"/>
+        <NamedIndividual IRI="#TerritoryManager"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#AccountManager"/>
+        <NamedIndividual IRI="#DeliveryProfessional"/>
+        <NamedIndividual IRI="#IndustryExpert"/>
+        <NamedIndividual IRI="#SalesProfessional"/>
+        <NamedIndividual IRI="#Service"/>
+        <NamedIndividual IRI="#ServiceProfessional"/>
+        <NamedIndividual IRI="#TechnicalSalesProfessional"/>
+        <NamedIndividual IRI="#TerritoryManager"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#AccountManager"/>
+        <NamedIndividual IRI="#DeliveryProfessional"/>
+        <NamedIndividual IRI="#IndustryExpert"/>
+        <NamedIndividual IRI="#SalesProfessional"/>
+        <NamedIndividual IRI="#ServiceProfessional"/>
+        <NamedIndividual IRI="#Stakeholder"/>
+        <NamedIndividual IRI="#TechnicalSalesProfessional"/>
+        <NamedIndividual IRI="#TerritoryManager"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Business"/>
+        <NamedIndividual IRI="#Champion"/>
+        <NamedIndividual IRI="#DecisionMaker"/>
+        <NamedIndividual IRI="#EconomicBuyer"/>
+        <NamedIndividual IRI="#EndUser"/>
+        <NamedIndividual IRI="#Influencer"/>
+        <NamedIndividual IRI="#TechnicalBuyer"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Business"/>
+        <NamedIndividual IRI="#Child"/>
+        <NamedIndividual IRI="#Parent"/>
+        <NamedIndividual IRI="#Spouse"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Business"/>
+        <NamedIndividual IRI="#Family"/>
+        <NamedIndividual IRI="#SalesTeam"/>
+        <NamedIndividual IRI="#Service"/>
+        <NamedIndividual IRI="#Stakeholder"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Business"/>
+        <NamedIndividual IRI="#PrimaryCase"/>
+        <NamedIndividual IRI="#RelatedCase"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Champion"/>
+        <NamedIndividual IRI="#DecisionMaker"/>
+        <NamedIndividual IRI="#EconomicBuyer"/>
+        <NamedIndividual IRI="#EndUser"/>
+        <NamedIndividual IRI="#Family"/>
+        <NamedIndividual IRI="#Influencer"/>
+        <NamedIndividual IRI="#TechnicalBuyer"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Champion"/>
+        <NamedIndividual IRI="#DecisionMaker"/>
+        <NamedIndividual IRI="#EconomicBuyer"/>
+        <NamedIndividual IRI="#EndUser"/>
+        <NamedIndividual IRI="#Influencer"/>
+        <NamedIndividual IRI="#SalesTeam"/>
+        <NamedIndividual IRI="#TechnicalBuyer"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Champion"/>
+        <NamedIndividual IRI="#DecisionMaker"/>
+        <NamedIndividual IRI="#EconomicBuyer"/>
+        <NamedIndividual IRI="#EndUser"/>
+        <NamedIndividual IRI="#Influencer"/>
+        <NamedIndividual IRI="#Service"/>
+        <NamedIndividual IRI="#TechnicalBuyer"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Child"/>
+        <NamedIndividual IRI="#Parent"/>
+        <NamedIndividual IRI="#SalesTeam"/>
+        <NamedIndividual IRI="#Spouse"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Child"/>
+        <NamedIndividual IRI="#Parent"/>
+        <NamedIndividual IRI="#Service"/>
+        <NamedIndividual IRI="#Spouse"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Child"/>
+        <NamedIndividual IRI="#Parent"/>
+        <NamedIndividual IRI="#Spouse"/>
+        <NamedIndividual IRI="#Stakeholder"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Colleague"/>
+        <NamedIndividual IRI="#Employee"/>
+        <NamedIndividual IRI="#Employer"/>
+        <NamedIndividual IRI="#Family"/>
+        <NamedIndividual IRI="#FormerEmployee"/>
+        <NamedIndividual IRI="#FormerEmployer"/>
+        <NamedIndividual IRI="#Partner"/>
+        <NamedIndividual IRI="#Referral"/>
+        <NamedIndividual IRI="#ReferredBy"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Colleague"/>
+        <NamedIndividual IRI="#Employee"/>
+        <NamedIndividual IRI="#Employer"/>
+        <NamedIndividual IRI="#FormerEmployee"/>
+        <NamedIndividual IRI="#FormerEmployer"/>
+        <NamedIndividual IRI="#Partner"/>
+        <NamedIndividual IRI="#Referral"/>
+        <NamedIndividual IRI="#ReferredBy"/>
+        <NamedIndividual IRI="#SalesTeam"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Colleague"/>
+        <NamedIndividual IRI="#Employee"/>
+        <NamedIndividual IRI="#Employer"/>
+        <NamedIndividual IRI="#FormerEmployee"/>
+        <NamedIndividual IRI="#FormerEmployer"/>
+        <NamedIndividual IRI="#Partner"/>
+        <NamedIndividual IRI="#Referral"/>
+        <NamedIndividual IRI="#ReferredBy"/>
+        <NamedIndividual IRI="#Service"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Colleague"/>
+        <NamedIndividual IRI="#Employee"/>
+        <NamedIndividual IRI="#Employer"/>
+        <NamedIndividual IRI="#FormerEmployee"/>
+        <NamedIndividual IRI="#FormerEmployer"/>
+        <NamedIndividual IRI="#Partner"/>
+        <NamedIndividual IRI="#Referral"/>
+        <NamedIndividual IRI="#ReferredBy"/>
+        <NamedIndividual IRI="#Stakeholder"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Family"/>
+        <NamedIndividual IRI="#PrimaryCase"/>
+        <NamedIndividual IRI="#RelatedCase"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#PrimaryCase"/>
+        <NamedIndividual IRI="#RelatedCase"/>
+        <NamedIndividual IRI="#SalesTeam"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#PrimaryCase"/>
+        <NamedIndividual IRI="#RelatedCase"/>
+        <NamedIndividual IRI="#Stakeholder"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#anniversary"/>
+        <NamedIndividual IRI="#establishdate"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#birthdate"/>
+        <NamedIndividual IRI="#establishdate"/>
+    </DifferentIndividuals>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#money"/>
+        <NamedIndividual IRI="#income"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral"></Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isPrimaryContactOf"/>
+        <ObjectProperty IRI="#isMemberOf"/>
+    </SubObjectPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+

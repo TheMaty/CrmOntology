@@ -1,0 +1,19 @@
+SELECT * WHERE {  ?x ?predicate ?y.}
+
+PREFIX crm-object: <http://www.comu.edu.tr/eatamuh/ontologies/type#>
+PREFIX crm-predicate: <http://www.comu.edu.tr/eatamuh/ontologies/subClassOf#>
+SELECT * WHERE 
+{  
+crm-object:767c4762-067b-433c-aea8-293e3a849179 crm-predicate: ?subject
+}
+
+
+PREFIX crm-object: <http://www.comu.edu.tr/eatamuh/ontologies/type#>   PREFIX crm-predicate: <http://www.comu.edu.tr/eatamuh/ontologies/subClassOf#>  SELECT * WHERE  {   crm-object:767c4762-067b-433c-aea8-293e3a849179 crm-predicate: ?subject  } 
+
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX dbpprop: <http://dbpedia.org/property/>
+PREFIX dbres: <http://dbpedia.org/resource/>
+
+SELECT ?y WHERE {
+ ?y dbpedia-owl:binomialAuthority dbres:Johan_Christian_Fabricius.
+ }
